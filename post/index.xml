@@ -16,7 +16,39 @@
           <pubDate>Sun, 20 Mar 2016 21:41:58 CST</pubDate>
           <author></author>
           <guid>http://jmjoy.github.io/post/Emacs%28Spacemacs%29%20on%20Windows/</guid>
-          <description>&lt;p&gt;虽说Emacs是一个跨平台的软件，但在Microsoft Windows上使用Emacs会出现很多其他平台上没有的问题。&lt;/p&gt;
+          <description>
+
+&lt;p&gt;虽说Emacs是一个跨平台的软件，但在Microsoft Windows上使用Emacs会出现很多其他平台上没有的问题，
+但是要用的始终要用，那就慢慢解决问题呗。&lt;/p&gt;
+
+&lt;h1 id=&#34;用哪个emacs:5d846216c572dc43509c21db210d69ff&#34;&gt;用哪个Emacs？&lt;/h1&gt;
+
+&lt;p&gt;选择很多，但是我用Spacemacs推荐的吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs#windows&#34;&gt;https://github.com/syl20bnr/spacemacs#windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;当然这个是非官方的编译版，但是不错。&lt;/p&gt;
+
+&lt;h1 id=&#34;解决问题:5d846216c572dc43509c21db210d69ff&#34;&gt;解决问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;quelpa在windows下的问题:5d846216c572dc43509c21db210d69ff&#34;&gt;quelpa在Windows下的问题&lt;/h2&gt;
+
+&lt;p&gt;我是一名使用Spacemacs的PHPer，需要用过&lt;code&gt;php&lt;/code&gt;这个layer，其中的&lt;code&gt;php-extras&lt;/code&gt;这个包在Windows下肯定是
+安装不成功的（linux下没问题）。究其原因，是因为这个包使用quelpa从github上pull的，而quelpa需要
+&lt;code&gt;tar&lt;/code&gt;这个工具，而且还不能是Windows原生编译出来的&lt;code&gt;tar&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;解决办法如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/quelpa/quelpa#tar&#34;&gt;https://github.com/quelpa/quelpa#tar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gtags的问题:5d846216c572dc43509c21db210d69ff&#34;&gt;gtags的问题&lt;/h2&gt;
+
+&lt;p&gt;这个问题会提示莫名其妙的 &lt;code&gt;No such file or directory, gtags&lt;/code&gt;，其实原因很简单，因为Spacemacs推荐的
+Emacs缺少了gtags.el这个文件。&lt;/p&gt;
+
+&lt;p&gt;解决办法如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/arnested/drupal-mode/issues/67#issuecomment-198870045&#34;&gt;https://github.com/arnested/drupal-mode/issues/67#issuecomment-198870045&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
