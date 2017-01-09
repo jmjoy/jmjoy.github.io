@@ -5,9 +5,77 @@
     <link>http://jmjoy.github.io/post/</link>
     <language>en-us</language>
     <author></author>
-    <rights>(C) 2016</rights>
-    <updated>2016-03-20 21:41:58 &#43;0800 CST</updated>
+    <rights>(C) 2017</rights>
+    <updated>2017-01-10 00:35:17 &#43;0800 CST</updated>
 
+    
+      
+        <item>
+          <title>Sql语句：分组最后一条</title>
+          <link>http://jmjoy.github.io/post/Sql%E8%AF%AD%E5%8F%A5%EF%BC%9A%E5%88%86%E7%BB%84%E6%9C%80%E5%90%8E%E4%B8%80%E6%9D%A1/</link>
+          <pubDate>Tue, 10 Jan 2017 00:35:17 CST</pubDate>
+          <author></author>
+          <guid>http://jmjoy.github.io/post/Sql%E8%AF%AD%E5%8F%A5%EF%BC%9A%E5%88%86%E7%BB%84%E6%9C%80%E5%90%8E%E4%B8%80%E6%9D%A1/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/1313120/retrieving-the-last-record-in-each-group/1313293#1313293&#34;&gt;https://stackoverflow.com/questions/1313120/retrieving-the-last-record-in-each-group/1313293#1313293&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;别笑，这个问题困惑了我很久，我曾经用过两个子查询的语句去做，导致性能挺差的，也试过用一张中间表去保存最后的
+ID，结果因为莫名其妙的ID没有同步好，导致了一个BUG，退款了给别人，心塞啊。今天试着google了一下，原来这么容易就可以解决这个问题了，果然是所有的子查询都可以写成JOIN的形式。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT m1.*
+FROM messages m1 LEFT JOIN messages m2
+ ON (m1.name = m2.name AND m1.id &amp;lt; m2.id)
+WHERE m2.id IS NULL;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;感谢解答了这个问题的大佬！&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>firefox开发版</title>
+          <link>http://jmjoy.github.io/post/firefox%E5%BC%80%E5%8F%91%E7%89%88/</link>
+          <pubDate>Tue, 10 Jan 2017 00:35:10 CST</pubDate>
+          <author></author>
+          <guid>http://jmjoy.github.io/post/firefox%E5%BC%80%E5%8F%91%E7%89%88/</guid>
+          <description>&lt;p&gt;今晚和同事闲聊的时候才知道有&lt;code&gt;Firefox develop editon&lt;/code&gt;这回事！Firefox 也是隐藏地很深啊，一直都觉得firefox的手机调试非常烂，但是开发版的手机模拟挺不错了，和Chrome的不相上下，这下子可以彻底抛弃Chrome了。（以前我开发总是要开两个浏览器，Firefox和Chrome，Chrome主要是用来调试web app的，我投靠Firefox的主要原因只是因为Chrome不知持外部下载器而且它自身的下载太烂了。）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/firefox/developer/?v=a&#34;&gt;https://www.mozilla.org/en-US/firefox/developer/?v=a&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这里就是下载地方，至于启动图标嘛&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://askubuntu.com/questions/548003/how-do-i-install-the-firefox-developer-edition&#34;&gt;http://askubuntu.com/questions/548003/how-do-i-install-the-firefox-developer-edition&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这里就有个很棒的回答，我是通过手动添加&lt;code&gt;.desktop&lt;/code&gt;文件的，方便快捷。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Manually&lt;/p&gt;
+
+&lt;p&gt;Download from Mozilla Firefox Developer Edition webpage. Extract it with file-roller and move the folder to its final location. A good practice is to install it in /opt/ or /usr/local/.&lt;/p&gt;
+
+&lt;p&gt;Once you moved the files to their final location (say /opt/firefox_dev/), you can create the following file ~/.local/share/applications/firefox_dev.desktop to get a launcher with an icon distinct from normal Firefox.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt; [Desktop Entry]
+ Name=Firefox Developer 
+ GenericName=Firefox Developer Edition
+ Exec=/opt/firefox_dev/firefox
+ Terminal=false
+ Icon=/opt/firefox_dev/browser/icons/mozicon128.png
+ Type=Application
+ Categories=Application;Network;X-Developer;
+ Comment=Firefox Developer Edition Web Browser.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;最后，期待2017年的servo!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.oschina.net/news/80710/mozilla-plan-replace-gecko-with-servo&#34;&gt;http://www.oschina.net/news/80710/mozilla-plan-replace-gecko-with-servo&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
     
       
         <item>
