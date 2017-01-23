@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Blog | Reading, programming and taking pills make me happy.</title>
+    <link>https://jmjoy.github.io/about/index.xml</link>
+    <description>Recent content in Abouts on Blog | Reading, programming and taking pills make me happy.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Jan 2017 13:26:53 +0800</lastBuildDate>
+    <atom:link href="https://jmjoy.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>关于博客</title>
+      <link>https://jmjoy.github.io/about/</link>
+      <pubDate>Tue, 10 Jan 2017 13:26:53 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/about/</guid>
+      <description>&lt;p&gt;第一篇文章是2016-03-20写的关于Emacs的文章&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jmjoy.github.io/portfolio/Emacs%28Spacemacs%29%20on%20Windows/&#34;&gt;Emacs(Spacemacs) on Windows&lt;/a&gt;
+&lt;em&gt;(虽然我已经不使用Windows了，突然想玩个游戏什么的时候可能会用吧)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;但是&lt;code&gt;&amp;quot;真正&amp;quot;&lt;/code&gt;想写博客是在 2017-01-10&lt;/p&gt;
+
+&lt;p&gt;记录程序方便的事情和一些日常琐事&lt;/p&gt;
+
+&lt;p&gt;使用了现在流行的github pages做静态网点&lt;/p&gt;
+
+&lt;p&gt;使用了hugo生成静态网站&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
