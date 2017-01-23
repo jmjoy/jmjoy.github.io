@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Blog | Reading, programming and taking pills make me happy.</title>
+    <link>https://jmjoy.github.io/portfolio/index.xml</link>
+    <description>Recent content in Portfolios on Blog | Reading, programming and taking pills make me happy.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 21 Jan 2017 21:10:59 +0800</lastBuildDate>
+    <atom:link href="https://jmjoy.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>React Native相关资料</title>
+      <link>https://jmjoy.github.io/portfolio/React%20Native%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</link>
+      <pubDate>Sat, 21 Jan 2017 21:10:59 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/React%20Native%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;zhiming老司机提供的&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;// react入门  &amp;mdash;  webpack入门  &amp;mdash;  redux入门  &amp;mdash;  react-router入门  &amp;mdash;  react-bootstrap  &amp;mdash;  redux-form  &amp;mdash;  react-bootstrp-table&lt;/p&gt;
+
+&lt;h2 id=&#34;第一轮&#34;&gt;第一轮&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2015/03/react.html&#34;&gt;React 入门实例教程&lt;/a&gt; 【1】&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ruanyf/react-demos&#34;&gt;React Demos&lt;/a&gt; 【1】&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/94dreamer/webpack&#34;&gt;简单易懂的webpack入门教程&lt;/a&gt; 【2】&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AriaFallah/WebpackTutorial&#34;&gt;Beginner Webpack Tutorial&lt;/a&gt; 【2】&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/react-guide/redux-tutorial-cn&#34;&gt;Redux Tutorial 中文翻译&lt;/a&gt; 【3】&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/reactjs/redux/tree/master/examples&#34;&gt;Redux Demos&lt;/a&gt; 【3】&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://react-guide.github.io/react-router-cn/&#34;&gt;React Router 中文文档&lt;/a&gt; 【4】&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/reactjs/react-router/tree/master/examples&#34;&gt;React Router Demos&lt;/a&gt;【4】&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000007141049&#34;&gt;react-router 按需加载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;第二轮&#34;&gt;第二轮&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/react-art-of-simplity/&#34;&gt;深入浅出React（一）：React的设计哲学 - 简单之美&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/react-and-webpack&#34;&gt;深入浅出React（二）：React开发神器Webpack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/react-jsx-and-component&#34;&gt;深入浅出React（三）：理解JSX和组件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/react-dom-diff&#34;&gt;深入浅出React（四）：虚拟DOM Diff算法解析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/react-flux&#34;&gt;深入浅出React（五）：使用Flux搭建React应用程序架构&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/cn/minibooks/ES6-in-Depth&#34;&gt;深入浅出ES6&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-an-introduction&#34;&gt;深入浅出ES6（一）：ES6是什么&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-iterators-and-the-for-of-loop&#34;&gt;深入浅出ES6（二）：迭代器和for-of循环&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-generators&#34;&gt;深入浅出ES6（三）：生成器 Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-template-string&#34;&gt;深入浅出ES6（四）：模板字符串&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-rest-parameters-and-defaults&#34;&gt;深入浅出ES6（五）：不定参数和默认参数&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-destructuring&#34;&gt;深入浅出ES6（六）：解构 Destructuring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-arrow-functions&#34;&gt;深入浅出ES6（七）：箭头函数 Arrow Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-symbols&#34;&gt;深入浅出ES6（八）：Symbols&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-babel-and-broccoli&#34;&gt;深入浅出ES6（九）：学习Babel和Broccoli，马上就用ES6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-collections&#34;&gt;深入浅出ES6（十）：集合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-generators-continued&#34;&gt;深入浅出ES6（十一）：生成器 Generators，续篇&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-proxies-and-reflect&#34;&gt;深入浅出ES6（十二）：代理 Proxies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-proxies-and-reflect&#34;&gt;深入浅出ES6（十二）：代理 Proxies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-proxies-and-reflect&#34;&gt;深入浅出ES6（十二）：代理 Proxies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-classes&#34;&gt;深入浅出ES6（十三）：类 Class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-let-and-const&#34;&gt;深入浅出ES6（十四）：let和const&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-subclassing&#34;&gt;深入浅出ES6（十五）：子类 Subclassing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-modules&#34;&gt;深入浅出ES6（十六）：模块 Modules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/cn/articles/es6-in-depth-the-future&#34;&gt;深入浅出ES6（十七）：展望未来&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://fakefish.github.io/react-webpack-cookbook/index.html&#34;&gt;React Webpack 小书&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cn.redux.js.org/&#34;&gt;Redux 中文文档&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://react-bootstrap.github.io/&#34;&gt;react-bootstrap&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.tuicool.com/articles/nYjyEzZ&#34;&gt;CSS Modules 详解及 React 中实践&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/css-modules/css-modules&#34;&gt;Documentation about css-modules&lt;/a&gt; *&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://redux-form.com/6.2.0/examples/submitValidation/&#34;&gt;redux-form&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://allenfang.github.io/react-bootstrap-table/example.html&#34;&gt;react-bootstrap-table&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/&#34;&gt;Node填坑教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/4089909.html&#34;&gt;Node填坑教程——前言&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/4090169.html&#34;&gt;第一期: Node填坑教程——HelloWorld&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/4425336.html&#34;&gt;第二期：Node填坑教程——简易http服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/4429336.html&#34;&gt;第三期：Node填坑教程——整理文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/4432862.html&#34;&gt;第四期：Node填坑教程——常用库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/4487166.html&#34;&gt;第五期：Node填坑教程——过滤器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/3762692.html&#34;&gt;函数式编程第一步——流程控制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cnblogs.com/heron/p/3514091.html&#34;&gt;加密算法 MD5/SHA1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;杂七杂八&#34;&gt;杂七杂八&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tuicool.com/articles/ni2QVf7&#34;&gt;ES6特性系列—ArrowFunction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://javascript.ruanyifeng.com/advanced/promise.html&#34;&gt;JavaScript 标准参考教程 - Promise对象&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://liubin.org/promises-book/&#34;&gt;JavaScript Promise迷你书（中文版）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/04/cors.html&#34;&gt;跨域资源共享 CORS 详解&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tuicool.com/articles/Q7FrErN&#34;&gt;JavaScript工具库之Lodash&lt;/a&gt;(&lt;a href=&#34;http://www.cnblogs.com/whitewolf/p/4417873.html&#34;&gt;http://www.cnblogs.com/whitewolf/p/4417873.html&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tuicool.com/articles/J7na2mj&#34;&gt;时间处理工具 moment.js：管理时间和日期，so easy！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://developer.51cto.com/art/201311/419268.htm&#34;&gt;同形的JavaScript：Web应用的未来&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000005770042&#34;&gt;开发工具心得：如何 10 倍提高你的 Webpack 构建效率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://zhuanlan.zhihu.com/p/20616464&#34;&gt;Airbnb React编码规范&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/airbnb/javascript&#34;&gt;airbnb/javascript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.w3ctech.com/topic/1595&#34;&gt;Immutable 详解及 React 中实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000002909224&#34;&gt;笔记, immutable-js 基础操作&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;第三轮&#34;&gt;第三轮&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://reactjs.cn/react/index.html&#34;&gt;React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000005136764&#34;&gt;精益 React 学习指南 （Lean React）序&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://my.oschina.net/ilivebox/blog/401612&#34;&gt;學習 React.js : 概念和起步&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://my.oschina.net/ilivebox/blog/402711&#34;&gt;學習 React.js：用 Node 和 React.js 創建一個實時的 Twitter 流&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://my.oschina.net/ilivebox/blog/402813&#34;&gt;學習 React.js：瞭解 Flux，React.js 的架構&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://my.oschina.net/ilivebox/blog/404049&#34;&gt;學習 React.js：用 React.js 和 Flux 創建一個簡單的購物車&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://my.oschina.net/ilivebox/blog/404966&#34;&gt;學習 React.js：用 ReactJS 30 分鐘打造一個移動應用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://es6.ruanyifeng.com/&#34;&gt;ECMAScript 6入门&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/llh911001/mostly-adequate-guide-chinese&#34;&gt;JS函数式编程指南中文版&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nqdeng.github.io/7-days-nodejs/&#34;&gt;七天学会NodeJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alsotang/node-lessons&#34;&gt;《Node.js 包教不包会》 &amp;ndash; by alsotang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;react-github-库&#34;&gt;React github 库&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tj/frontend-boilerplate&#34;&gt;Frontend Boilerplate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Adphorus/react-date-range&#34;&gt;react-date-range&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mosch/react-avatar-editor&#34;&gt;react-avatar-editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/RubaXa/Sortable&#34;&gt;Sortable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/2remote/yaopai-mobile&#34;&gt;web app for YAOPAI http://m.aiyaopai.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MingYinLv/react-chat&#34;&gt;React Chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jackhutu/jackblog-react-redux&#34;&gt;jackblog react redux 版&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jackhutu/jackblog-api-express&#34;&gt;Jackblog API Server Express版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jackhutu/jackblog-admin&#34;&gt;Jackblog 后台管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jackhutu/jackblog-react-native-redux&#34;&gt;Jackblog React Native版, 使用redux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gaearon/react-dnd&#34;&gt;React DnD 一个专注于控件拖拽的库，基于 higher-order component 而实现&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/callemall/material-ui&#34;&gt;React Components that Implement Google&amp;rsquo;s Material Design&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sunOpar/react-component-maker&#34;&gt;react-component-maker&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/blankPen/blank-ui&#34;&gt;blank-ui——用于二次开发的React组件库&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/uniquelike/article/details/52574476&#34;&gt;NodeJs WS 模块 实现 WebSocket 聊天&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;react-native&#34;&gt;React Native&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/buhe/react-native-pili&#34;&gt;Pili Streaming Cloud React Native SDK 全功能的直播 SDK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jianshu.com/p/d9cd9a868764&#34;&gt;React Native 项目常用第三方组件汇总&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;小程序&#34;&gt;小程序&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/debug/wxadoc/dev/?t=201715&#34;&gt;简易教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/labrador&#34;&gt;微信小程序模块化开发框架&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>推荐几个docker镜像</title>
+      <link>https://jmjoy.github.io/portfolio/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AAdocker%E9%95%9C%E5%83%8F/</link>
+      <pubDate>Sat, 14 Jan 2017 22:06:57 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AAdocker%E9%95%9C%E5%83%8F/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/laraedit/laraedit/&#34;&gt;homestead的docker替代版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.docker.com/u/webdevops/&#34;&gt;webdevops的一系列关于PHP服务器的镜像&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>eav模型</title>
+      <link>https://jmjoy.github.io/portfolio/eav%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Wed, 11 Jan 2017 12:26:29 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/eav%E6%A8%A1%E5%9E%8B/</guid>
+      <description>
+
+&lt;h2 id=&#34;eav模型&#34;&gt;EAV模型&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://simpleframework.net/news/view?newsId=edc4ad059b5042798a95f0517399e5f2&#34;&gt;http://simpleframework.net/news/view?newsId=edc4ad059b5042798a95f0517399e5f2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://simpleframework.net/news/view?newsId=a8aea83fc76540908138c3b995c99094&#34;&gt;http://simpleframework.net/news/view?newsId=a8aea83fc76540908138c3b995c99094&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/IsraelOrtuno/Eavquent&#34;&gt;https://github.com/IsraelOrtuno/Eavquent&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/bruce_wang_janet/article/details/10788687&#34;&gt;http://blog.csdn.net/bruce_wang_janet/article/details/10788687&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://craft6.cn/detail/b2c_schemes_eav_model.do&#34;&gt;http://craft6.cn/detail/b2c_schemes_eav_model.do&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;hello&lt;/th&gt;
+&lt;th&gt;world&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;what&lt;/td&gt;
+&lt;td&gt;happen&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;sdfjk&lt;/td&gt;
+&lt;td&gt;sdfjklsd&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;sdfsadf&lt;/td&gt;
+&lt;td&gt;asdf&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>propel</title>
+      <link>https://jmjoy.github.io/portfolio/propel/</link>
+      <pubDate>Tue, 10 Jan 2017 23:39:22 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/propel/</guid>
+      <description>&lt;p&gt;PHP重量级的ORM&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://propelorm.org/&#34;&gt;propel首页&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;甚至提供了sandbox作为online测试&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ps. 现在选择库or工具首先都得看首页漂亮不漂亮啊 ~(≧▽≦)/~)&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>laravel的一些学习资源</title>
+      <link>https://jmjoy.github.io/portfolio/laravel%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</link>
+      <pubDate>Tue, 10 Jan 2017 21:57:01 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/laravel%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</guid>
+      <description>
+
+&lt;p&gt;zhiming老司机提供的&lt;/p&gt;
+
+&lt;h2 id=&#34;laravel-5-3-中文文档&#34;&gt;Laravel 5.3 中文文档&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://laravelacademy.org/laravel-docs-5_3&#34;&gt;http://laravelacademy.org/laravel-docs-5_3&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;laravel-快速构建后台组件-sleepingowl-admin&#34;&gt;laravel 快速构建后台组件 SleepingOwl Admin&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.c2567.com/2016-06-16/laravel-%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E5%90%8E%E5%8F%B0%E7%BB%84%E4%BB%B6-SleepingOwl-Admin/&#34;&gt;http://blog.c2567.com/2016-06-16/laravel-%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E5%90%8E%E5%8F%B0%E7%BB%84%E4%BB%B6-SleepingOwl-Admin/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/LaravelRUS/SleepingOwlAdmin&#34;&gt;https://github.com/LaravelRUS/SleepingOwlAdmin&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;消息系统&#34;&gt;消息系统&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/cmgmyr/laravel-messenger&#34;&gt;https://github.com/cmgmyr/laravel-messenger&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://oomusou.io/laravel/laravel-architecture/&#34;&gt;Laravel 的中大型專案架構&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://oomusou.io/laravel/laravel-repository/&#34;&gt;如何使用 Repository 模式?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://oomusou.io/laravel/laravel-service/&#34;&gt;如何使用 Service 模式?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://oomusou.io/laravel/laravel-presenter/&#34;&gt;如何使用 Presenter 模式?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/andersao/l5-repository&#34;&gt;andersao/l5-repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dianpou/dianpou&#34;&gt;电商网站Dianpou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jiangqqlmj/GaGaMall&#34;&gt;React Native开发嘎嘎商城客户端 http://www.lcode.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://laravel-china.org/topics/1416&#34;&gt;Docker + Jenkins 快速打造 PHP 持续集成服务器&lt;/a&gt;
+&lt;a href=&#34;https://github.com/zhuzhichao/laravel-db-dict&#34;&gt;数据字典 for laravel&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>linux工具集</title>
+      <link>https://jmjoy.github.io/portfolio/linux%E5%B7%A5%E5%85%B7%E9%9B%86/</link>
+      <pubDate>Tue, 10 Jan 2017 13:22:50 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/linux%E5%B7%A5%E5%85%B7%E9%9B%86/</guid>
+      <description>
+
+&lt;p&gt;持续更新ing……&lt;/p&gt;
+
+&lt;!-- markdown-toc start - Don&#39;t edit this section. Run M-x markdown-toc-generate-toc again --&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#deepin&#34;&gt;Deepin&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#交换capslock和esc键&#34;&gt;交换CapsLock和Esc键&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dconf-editor&#34;&gt;dconf-editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vcs&#34;&gt;VCS&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#rabbitvcs&#34;&gt;rabbitvcs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#编程语言&#34;&gt;编程语言&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#rust&#34;&gt;Rust&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#国内源&#34;&gt;国内源&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#ustc的源&#34;&gt;USTC的源&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#php&#34;&gt;php&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#composer&#34;&gt;composer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#phpmd&#34;&gt;phpmd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#javascript&#34;&gt;javascript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#编辑器&#34;&gt;编辑器&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#emacs&#34;&gt;Emacs&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#spacemacs&#34;&gt;Spacemacs&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#spacemacs相关工具&#34;&gt;Spacemacs相关工具&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#fira-code-字体&#34;&gt;Fira Code 字体&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#搜索工具&#34;&gt;搜索工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gnu-global&#34;&gt;GNU global&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tern&#34;&gt;tern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#数据库相关&#34;&gt;数据库相关&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#客户端&#34;&gt;客户端&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#mysql-workbench&#34;&gt;MySQL Workbench&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#docker&#34;&gt;Docker&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#docker-compose&#34;&gt;docker-compose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#推荐镜像&#34;&gt;推荐镜像&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#laraedit-docker&#34;&gt;laraedit-docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#坚果云&#34;&gt;坚果云&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- markdown-toc end --&gt;
+
+&lt;h1 id=&#34;deepin&#34;&gt;Deepin&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.deepin.org/&#34;&gt;deepin官方网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;交换capslock和esc键&#34;&gt;交换CapsLock和Esc键&lt;/h2&gt;
+
+&lt;p&gt;Vim键盘手专用&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;gsettings set com.deepin.dde.keybinding.mediakey capslock &amp;quot;[&#39;&#39;]&amp;quot; &amp;amp;&amp;amp; \
+gsettings set com.deepin.dde.keyboard layout-options &amp;quot;[&#39;caps:swapescape&#39;]&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;dconf-editor&#34;&gt;dconf-editor&lt;/h2&gt;
+
+&lt;p&gt;图形化的配置编辑器 &lt;strong&gt;be careful&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install dconf-editor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;vcs&#34;&gt;VCS&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install git git-extras subversion
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tj/git-extras/blob/master/Commands.md&#34;&gt;git-extras: 非常实用的git命令扩展集&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;rabbitvcs&#34;&gt;rabbitvcs&lt;/h2&gt;
+
+&lt;p&gt;linux下的TortoiseSVN / TortoiseGit替代方案&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;编程语言&#34;&gt;编程语言&lt;/h1&gt;
+
+&lt;h2 id=&#34;rust&#34;&gt;Rust&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.rust-lang.org/zh-CN/&#34;&gt;Rust官方网站&lt;/a&gt;
+&lt;a href=&#34;https://www.rust-lang.org/zh-CN/install.html&#34;&gt;安装Rust&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;curl https://sh.rustup.rs -sSf | sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;国内源&#34;&gt;国内源&lt;/h3&gt;
+
+&lt;h4 id=&#34;ustc的源&#34;&gt;USTC的源&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://lug.ustc.edu.cn/wiki/mirrors/help/rust-static&#34;&gt;rustup: The Rust toolchain installer&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://lug.ustc.edu.cn/wiki/mirrors/help/rust-crates&#34;&gt;cargo: Rust&amp;rsquo;s package manager&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;更改 $HOME/.cargo/config 为以下内容:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[source.crates-io]
+registry = &amp;quot;https://github.com/rust-lang/crates.io-index&amp;quot;
+replace-with = &#39;ustc&#39;
+[source.ustc]
+registry = &amp;quot;git://mirrors.ustc.edu.cn/crates.io-index&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;php&#34;&gt;php&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install php7.0-cli php7.0-dev php7.0-pgsql php7.0-sqlite3 php7.0-gd \
+     php7.0-curl php7.0-mcrypt php7.0-imap php7.0-mysql php7.0-readline php-xdebug php-common \
+     php7.0-mbstring php7.0-xml php7.0-zip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;composer&#34;&gt;composer&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://getcomposer.org/&#34;&gt;composer: PHP包管理器&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://getcomposer.org/download/&#34;&gt;安装composer&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;php -r &amp;quot;copy(&#39;https://getcomposer.org/installer&#39;, &#39;composer-setup.php&#39;);&amp;quot; &amp;amp;&amp;amp; \
+php -r &amp;quot;if (hash_file(&#39;SHA384&#39;, &#39;composer-setup.php&#39;) === &#39;55d6ead61b29c7bdee5cccfb50076874187bd9f21f65d8991d46ec5cc90518f447387fb9f76ebae1fbbacf329e583e30&#39;) { echo &#39;Installer verified&#39;; } else { echo &#39;Installer corrupt&#39;; unlink(&#39;composer-setup.php&#39;); } echo PHP_EOL;&amp;quot; &amp;amp;&amp;amp; \
+php composer-setup.php &amp;amp;&amp;amp; \
+php -r &amp;quot;unlink(&#39;composer-setup.php&#39;);&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;phpmd&#34;&gt;phpmd&lt;/h3&gt;
+
+&lt;p&gt;语法检查工具，作为编辑器外部工具&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://phpmd.org/&#34;&gt;phpmd官方网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;composer global require phpmd/phpmd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;javascript&#34;&gt;javascript&lt;/h2&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;编辑器&#34;&gt;编辑器&lt;/h1&gt;
+
+&lt;h2 id=&#34;emacs&#34;&gt;Emacs&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs官方网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shellsession&#34;&gt;sudo apt install emacs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;spacemacs&#34;&gt;Spacemacs&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://spacemacs.org/&#34;&gt;Spacemacs官方网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;安装&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;spacemacs相关工具&#34;&gt;Spacemacs相关工具&lt;/h4&gt;
+
+&lt;h5 id=&#34;fira-code-字体&#34;&gt;Fira Code 字体&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tonsky/FiraCode&#34;&gt;https://github.com/tonsky/FiraCode&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tonsky/FiraCode/releases&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;搜索工具&#34;&gt;搜索工具&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install silversearcher-ag ack-grep
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;gnu-global&#34;&gt;GNU global&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/global/&#34;&gt;GNU global: 代码跳转TAGS生成工具&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;由于apt源的版本比较老，所以通过编译安装最新&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gnu.org/software/global/download.html&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;安装编译依赖&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install make bison autoconf texinfo flex gperf libtool-bin libncurses5-dev
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;编译&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sh reconf.sh &amp;amp;&amp;amp; ./configure &amp;amp;&amp;amp; make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;tern&#34;&gt;tern&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo npm install -g tern
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;数据库相关&#34;&gt;数据库相关&lt;/h1&gt;
+
+&lt;h2 id=&#34;客户端&#34;&gt;客户端&lt;/h2&gt;
+
+&lt;h3 id=&#34;mysql-workbench&#34;&gt;MySQL Workbench&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mysql.com/products/workbench/&#34;&gt;MySQL Workbench官方网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;docker&#34;&gt;Docker&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/engine/installation/linux/ubuntu/&#34;&gt;安装Docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;docker-compose&#34;&gt;docker-compose&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/compose/install/&#34;&gt;安装docker-compose&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo curl -L &amp;quot;https://github.com/docker/compose/releases/download/1.9.0/docker-compose-$(uname -s)-$(uname -m)&amp;quot; -o /usr/local/bin/docker-compose &amp;amp;&amp;amp; sudo chmod +x /usr/local/bin/docker-compose
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;推荐镜像&#34;&gt;推荐镜像&lt;/h2&gt;
+
+&lt;h3 id=&#34;laraedit-docker&#34;&gt;laraedit-docker&lt;/h3&gt;
+
+&lt;p&gt;Dockerized version of Laravel Homestead.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://hub.docker.com/r/laraedit/laraedit/&#34;&gt;https://hub.docker.com/r/laraedit/laraedit/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;坚果云&#34;&gt;坚果云&lt;/h1&gt;
+
+&lt;p&gt;国内比较优秀的跨平台同步云盘&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.jianguoyun.com/&#34;&gt;官方网站&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>chrome：文件上传框打开慢的原因</title>
+      <link>https://jmjoy.github.io/portfolio/chrome%EF%BC%9A%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%A1%86%E6%89%93%E5%BC%80%E6%85%A2%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
+      <pubDate>Tue, 10 Jan 2017 10:29:19 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/chrome%EF%BC%9A%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%A1%86%E6%89%93%E5%BC%80%E6%85%A2%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.w3school.com.cn/html5/att_input_accept.asp&#34;&gt;http://www.w3school.com.cn/html5/att_input_accept.asp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/liangjiang/p/5799984.html&#34;&gt;http://www.cnblogs.com/liangjiang/p/5799984.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+                    &amp;lt;input type=&amp;quot;file&amp;quot; name=&amp;quot;image&amp;quot;
+                           accept=&amp;quot;image/gif,image/jpeg,image/pjpeg,image/png,.png,image/bmp,image/x-windows-bmp,.bmp&amp;quot;&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;chrome 和 firefox 都有bug&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sql语句：分组最后一条</title>
+      <link>https://jmjoy.github.io/portfolio/Sql%E8%AF%AD%E5%8F%A5%EF%BC%9A%E5%88%86%E7%BB%84%E6%9C%80%E5%90%8E%E4%B8%80%E6%9D%A1/</link>
+      <pubDate>Tue, 10 Jan 2017 00:35:17 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/Sql%E8%AF%AD%E5%8F%A5%EF%BC%9A%E5%88%86%E7%BB%84%E6%9C%80%E5%90%8E%E4%B8%80%E6%9D%A1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/1313120/retrieving-the-last-record-in-each-group/1313293#1313293&#34;&gt;https://stackoverflow.com/questions/1313120/retrieving-the-last-record-in-each-group/1313293#1313293&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;别笑，这个问题困惑了我很久，我曾经用过两个子查询的语句去做，导致性能挺差的，也试过用一张中间表去保存最后的
+ID，结果因为莫名其妙的ID没有同步好，导致了一个BUG，退款了给别人，心塞啊。今天试着google了一下，原来这么容易就可以解决这个问题了，果然是所有的子查询都可以写成JOIN的形式。&lt;/p&gt;
+
+&lt;p&gt;场景 ： 比如一个日志表，有个订单号的字段，现在要取各订单号的最后一条日志&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT m1.*
+FROM messages m1 LEFT JOIN messages m2
+ ON (m1.name = m2.name AND m1.id &amp;lt; m2.id)
+WHERE m2.id IS NULL;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;感谢解答了这个问题的大佬！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>firefox开发版</title>
+      <link>https://jmjoy.github.io/portfolio/firefox%E5%BC%80%E5%8F%91%E7%89%88/</link>
+      <pubDate>Tue, 10 Jan 2017 00:35:10 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/firefox%E5%BC%80%E5%8F%91%E7%89%88/</guid>
+      <description>&lt;p&gt;今晚和同事闲聊的时候才知道有&lt;code&gt;Firefox develop editon&lt;/code&gt;这回事！Firefox 也是隐藏地很深啊，一直都觉得firefox的手机调试非常烂，但是开发版的手机模拟挺不错了，和Chrome的不相上下，这下子可以彻底抛弃Chrome了。（以前我开发总是要开两个浏览器，Firefox和Chrome，Chrome主要是用来调试web app的，我投靠Firefox的主要原因只是因为Chrome不知持外部下载器而且它自身的下载太烂了。）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/firefox/developer/?v=a&#34;&gt;https://www.mozilla.org/en-US/firefox/developer/?v=a&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/firefox/channel/desktop/?v=a&#34;&gt;https://www.mozilla.org/en-US/firefox/channel/desktop/?v=a&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这里就是下载地方，至于启动图标嘛&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://askubuntu.com/questions/548003/how-do-i-install-the-firefox-developer-edition&#34;&gt;http://askubuntu.com/questions/548003/how-do-i-install-the-firefox-developer-edition&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这里就有个很棒的回答，我是通过手动添加&lt;code&gt;.desktop&lt;/code&gt;文件的，方便快捷。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Manually&lt;/p&gt;
+
+&lt;p&gt;Download from Mozilla Firefox Developer Edition webpage. Extract it with file-roller and move the folder to its final location. A good practice is to install it in /opt/ or /usr/local/.&lt;/p&gt;
+
+&lt;p&gt;Once you moved the files to their final location (say /opt/firefox_dev/), you can create the following file ~/.local/share/applications/firefox_dev.desktop to get a launcher with an icon distinct from normal Firefox.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt; [Desktop Entry]
+ Name=Firefox Developer 
+ GenericName=Firefox Developer Edition
+ Exec=/opt/firefox_dev/firefox
+ Terminal=false
+ Icon=/opt/firefox_dev/browser/icons/mozicon128.png
+ Type=Application
+ Categories=Application;Network;X-Developer;
+ Comment=Firefox Developer Edition Web Browser.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;(2017-01-21修改) 好气啊，答案给的&lt;code&gt;.desktop&lt;/code&gt;不能打开外部url，原因是&lt;code&gt;Exec&lt;/code&gt;执行的&lt;code&gt;firefox&lt;/code&gt;少了&lt;code&gt;%u&lt;/code&gt;这个参数，今天故意对比了一下原来firefox的&lt;code&gt;.desktop&lt;/code&gt;才发现的，所以下面贴出了我对比之后修改的&lt;code&gt;.desktop&lt;/code&gt;。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Desktop Entry]
+Encoding=UTF-8
+Name=Firefox Developer 
+GenericName=Firefox Developer Edition
+Comment=Firefox Developer Edition Web Browser.
+Exec=/opt/firefox_dev/firefox %u
+X-MultipleArgs=false
+Terminal=false
+Icon=/opt/firefox_dev/browser/icons/mozicon128.png
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;
+StartupWMClass=Firefox
+StartupNotify=true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;最后，期待2017年的servo!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.oschina.net/news/80710/mozilla-plan-replace-gecko-with-servo&#34;&gt;http://www.oschina.net/news/80710/mozilla-plan-replace-gecko-with-servo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emacs(Spacemacs) on Windows</title>
+      <link>https://jmjoy.github.io/portfolio/Emacs%28Spacemacs%29%20on%20Windows/</link>
+      <pubDate>Sun, 20 Mar 2016 21:41:58 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/Emacs%28Spacemacs%29%20on%20Windows/</guid>
+      <description>
+
+&lt;p&gt;虽说Emacs是一个跨平台的软件，但在Microsoft Windows上使用Emacs会出现很多其他平台上没有的问题，
+但是要用的始终要用，那就慢慢解决问题呗。&lt;/p&gt;
+
+&lt;h1 id=&#34;用哪个emacs&#34;&gt;用哪个Emacs？&lt;/h1&gt;
+
+&lt;p&gt;选择很多，但是我用Spacemacs推荐的吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs#windows&#34;&gt;https://github.com/syl20bnr/spacemacs#windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;当然这个是非官方的编译版，但是不错。&lt;/p&gt;
+
+&lt;h1 id=&#34;解决问题&#34;&gt;解决问题&lt;/h1&gt;
+
+&lt;h2 id=&#34;quelpa在windows下的问题&#34;&gt;quelpa在Windows下的问题&lt;/h2&gt;
+
+&lt;p&gt;我是一名使用Spacemacs的PHPer，需要用过&lt;code&gt;php&lt;/code&gt;这个layer，其中的&lt;code&gt;php-extras&lt;/code&gt;这个包在Windows下肯定是安装不成功的（linux下没问题）。究其原因，是因为这个包使用quelpa从github上pull的，而quelpa需要 &lt;code&gt;tar&lt;/code&gt;这个工具，而且还不能是Windows原生编译出来的&lt;code&gt;tar&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;解决办法如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/quelpa/quelpa#tar&#34;&gt;https://github.com/quelpa/quelpa#tar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gtags的问题&#34;&gt;gtags的问题&lt;/h2&gt;
+
+&lt;p&gt;这个问题会提示莫名其妙的 &lt;code&gt;No such file or directory, gtags&lt;/code&gt;，其实原因很简单，因为Spacemacs推荐的 Emacs缺少了gtags.el这个文件。&lt;/p&gt;
+
+&lt;p&gt;解决办法如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/arnested/drupal-mode/issues/67#issuecomment-198870045&#34;&gt;https://github.com/arnested/drupal-mode/issues/67#issuecomment-198870045&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;diff&#34;&gt;diff&lt;/h2&gt;
+
+&lt;p&gt;在使用 Spacemacs 的 go layer 时会遇到 diff 缺失的问题，这个解决办法就是直接下载 GNU Win32 的
+diffutil使用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gnuwin32.sourceforge.net/packages/diffutils.htm&#34;&gt;http://gnuwin32.sourceforge.net/packages/diffutils.htm&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
