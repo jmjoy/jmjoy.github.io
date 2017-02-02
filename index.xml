@@ -5,9 +5,79 @@
     <link>https://jmjoy.github.io/index.xml</link>
     <description>Recent content on Blog | Reading, programming and taking pills make me happy.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Jan 2017 23:27:37 +0800</lastBuildDate>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 02 Feb 2017 23:00:51 +0800</lastBuildDate>
     <atom:link href="https://jmjoy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker container访问宿主服务的方法</title>
+      <link>https://jmjoy.github.io/portfolio/Docker%20container%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Thu, 02 Feb 2017 23:00:51 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/Docker%20container%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container&#34;&gt;http://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eloquent和Eavquent源码分析笔记</title>
+      <link>https://jmjoy.github.io/portfolio/Eloquent%E5%92%8CEavquent%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 27 Jan 2017 15:39:41 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/Eloquent%E5%92%8CEavquent%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;Eloquent/Model&lt;/p&gt;
+
+&lt;p&gt;ActiveRecord&lt;/p&gt;
+
+&lt;p&gt;魔术方法 &lt;code&gt;__get&lt;/code&gt;和&lt;code&gt;__set&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;    public function __get($key)
+    {
+        return $this-&amp;gt;getAttribute($key);
+    }
+
+    public function __set($key, $value)
+    {
+        $this-&amp;gt;setAttribute($key, $value);
+    }
+    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;魔术方法 &lt;code&gt;__call&lt;/code&gt;和&lt;code&gt;__callStatic&lt;/code&gt;，查询器&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;    public function __call($method, $parameters)
+    {
+        if (in_array($method, [&#39;increment&#39;, &#39;decrement&#39;])) {
+            return $this-&amp;gt;$method(...$parameters);
+        }
+
+        return $this-&amp;gt;newQuery()-&amp;gt;$method(...$parameters);
+    }
+
+    public static function __callStatic($method, $parameters)
+    {
+        return (new static)-&amp;gt;$method(...$parameters);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Trait Evaquent&lt;/p&gt;
+
+&lt;p&gt;复写了魔术方法&lt;code&gt;__call&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;    public function __call($method, $parameters)
+    {
+        // 每次调用查询都会先boot
+        $this-&amp;gt;bootEavquentIfNotBooted();
+
+        if ($this-&amp;gt;isAttributeRelation($method)) {
+            return call_user_func_array($this-&amp;gt;attributeRelations[$method], $parameters);
+        }
+
+        return parent::__call($method, $parameters);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>日志</title>
@@ -285,6 +355,12 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;:clap:&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;:smeargle:&lt;/p&gt;
 </description>
     </item>
     
