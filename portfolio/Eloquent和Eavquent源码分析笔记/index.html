@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>推荐几个docker镜像</title>
+<title>Eloquent和Eavquent源码分析笔记</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -72,11 +72,58 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>推荐几个docker镜像</h1>
-         <ul>
-<li><a href="https://hub.docker.com/r/laraedit/laraedit/">homestead的docker替代版</a></li>
-<li><a href="https://hub.docker.com/u/webdevops/">webdevops的一系列关于PHP服务器的镜像</a></li>
-</ul>
+         <h1>Eloquent和Eavquent源码分析笔记</h1>
+         <p>Eloquent/Model</p>
+
+<p>ActiveRecord</p>
+
+<p>魔术方法 <code>__get</code>和<code>__set</code></p>
+
+<pre><code class="language-php">    public function __get($key)
+    {
+        return $this-&gt;getAttribute($key);
+    }
+
+    public function __set($key, $value)
+    {
+        $this-&gt;setAttribute($key, $value);
+    }
+    
+</code></pre>
+
+<p>魔术方法 <code>__call</code>和<code>__callStatic</code>，查询器</p>
+
+<pre><code class="language-php">    public function __call($method, $parameters)
+    {
+        if (in_array($method, ['increment', 'decrement'])) {
+            return $this-&gt;$method(...$parameters);
+        }
+
+        return $this-&gt;newQuery()-&gt;$method(...$parameters);
+    }
+
+    public static function __callStatic($method, $parameters)
+    {
+        return (new static)-&gt;$method(...$parameters);
+    }
+</code></pre>
+
+<p>Trait Evaquent</p>
+
+<p>复写了魔术方法<code>__call</code></p>
+
+<pre><code class="language-php">    public function __call($method, $parameters)
+    {
+        // 每次调用查询都会先boot
+        $this-&gt;bootEavquentIfNotBooted();
+
+        if ($this-&gt;isAttributeRelation($method)) {
+            return call_user_func_array($this-&gt;attributeRelations[$method], $parameters);
+        }
+
+        return parent::__call($method, $parameters);
+    }
+</code></pre>
 
          
       </div>
