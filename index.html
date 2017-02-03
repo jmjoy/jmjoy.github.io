@@ -82,6 +82,25 @@
                       
                       <div class="box-masonry-text">
                       
+                          <h4><a href="https://jmjoy.github.io/portfolio/Docker&#43;xdebug&#43;emacs%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95PHP%E7%A8%8B%E5%BA%8F/">Docker&#43;xdebug&#43;emacs断点调试PHP程序</a></h4>
+                          <div class="box-masonry-desription">
+                              <p>Table of Contents
+ Docker 配置 Emacs配置  Docker 配置 首先得有一个配置好的docker image, 这里使用laraedit ，homestead的docker替代版，已经包含了php的xdebug扩展。
+然后运行docker run ...，这里省略。
+查看宿主机的docker0的ip
+$ ip addr show docker0 7: docker0: &lt;NO-CARRIER,BROADCAST,MULTICAST,UP&gt; mtu 1500 qdisc noqueue state DOWN group default link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0 valid_lft forever preferred_lft forever inet6 fe80::f4d2:49ff:fedd:28a0/64 scope link valid_lft forever preferred_lft forever  运行 docker exec -it _the_name_of_your_container_ bash
+配置/etc/php/7.0/fpm/conf.d/20-xdebug.ini如下 （其中172.17.0.1地址是通过上面ip addr show docker0这条命令得到的地址）</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      
+                      
+                      <div class="box-masonry-text">
+                      
                           <h4><a href="https://jmjoy.github.io/portfolio/Docker%20container%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%96%B9%E6%B3%95/">Docker container访问宿主服务的方法</a></h4>
                           <div class="box-masonry-desription">
                               <p>http://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container</p>
