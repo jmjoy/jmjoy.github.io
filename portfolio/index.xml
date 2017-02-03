@@ -6,8 +6,86 @@
     <description>Recent content in Portfolios on Blog | Reading, programming and taking pills make me happy.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Feb 2017 23:00:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Feb 2017 11:06:14 +0800</lastBuildDate>
     <atom:link href="https://jmjoy.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker&#43;xdebug&#43;emacs断点调试PHP程序</title>
+      <link>https://jmjoy.github.io/portfolio/Docker&#43;xdebug&#43;emacs%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95PHP%E7%A8%8B%E5%BA%8F/</link>
+      <pubDate>Fri, 03 Feb 2017 11:06:14 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/Docker&#43;xdebug&#43;emacs%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95PHP%E7%A8%8B%E5%BA%8F/</guid>
+      <description>
+
+&lt;!-- markdown-toc start - Don&#39;t edit this section. Run M-x markdown-toc-generate-toc again --&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#docker-配置&#34;&gt;Docker 配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#emacs配置&#34;&gt;Emacs配置&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- markdown-toc end --&gt;
+
+&lt;h1 id=&#34;docker-配置&#34;&gt;Docker 配置&lt;/h1&gt;
+
+&lt;p&gt;首先得有一个配置好的&lt;code&gt;docker image&lt;/code&gt;, 这里使用&lt;a href=&#34;https://hub.docker.com/r/laraedit/laraedit/&#34;&gt;laraedit&lt;/a&gt; ，homestead的docker替代版，已经包含了php的&lt;code&gt;xdebug&lt;/code&gt;扩展。&lt;/p&gt;
+
+&lt;p&gt;然后运行&lt;code&gt;docker run ...&lt;/code&gt;，这里省略。&lt;/p&gt;
+
+&lt;p&gt;查看宿主机的docker0的ip&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ ip addr show docker0
+7: docker0: &amp;lt;NO-CARRIER,BROADCAST,MULTICAST,UP&amp;gt; mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f4d2:49ff:fedd:28a0/64 scope link 
+       valid_lft forever preferred_lft forever
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;运行 &lt;code&gt;docker exec -it _the_name_of_your_container_ bash&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;配置&lt;code&gt;/etc/php/7.0/fpm/conf.d/20-xdebug.ini&lt;/code&gt;如下
+&lt;em&gt;（其中172.17.0.1地址是通过上面&lt;code&gt;ip addr show docker0&lt;/code&gt;这条命令得到的地址）&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ini&#34;&gt;zend_extension=xdebug.so
+xdebug.remote_enable=On
+xdebug.remote_host=172.17.0.1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;重启php-fpm&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;supervisorctl restart php-fpm7.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;通过&lt;code&gt;phpinfo()&lt;/code&gt;确保&lt;code&gt;php-xdebug&lt;/code&gt;配置无误：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jmjoy.github.io/images/Docker+xdebug+emacs断点调试PHP程序/phpinfo.png&#34; alt=&#34;phpinfo&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;emacs配置&#34;&gt;Emacs配置&lt;/h1&gt;
+
+&lt;p&gt;Emacs安装&lt;code&gt;geben&lt;/code&gt;这个package，如果使用spacemacs的话可以使用&lt;code&gt;geben layer&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;这里说一下spacemacs的配置方法&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/rubberydub/spacemacs-geben.git ~/.spacemacs.d/geben
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后将&lt;code&gt;geben&lt;/code&gt;添加到&lt;code&gt;dotspacemacs-configuration-layers&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;然后就可以愉快得使用了～&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jmjoy.github.io/images/Docker+xdebug+emacs断点调试PHP程序/debug.png&#34; alt=&#34;debug&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PS: geben默认是通过创建新窗口来打开debug到的新buffer的，我个人觉得有点烦，所以我就配置了如下（切换buffer）：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-emacs-lisp&#34;&gt;(custom-set-variables
+ &#39;(geben-display-window-function (quote popwin:switch-to-buffer)))
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Docker container访问宿主服务的方法</title>
