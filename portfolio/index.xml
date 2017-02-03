@@ -23,6 +23,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#docker-配置&#34;&gt;Docker 配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#浏览器配置&#34;&gt;浏览器配置&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#emacs配置&#34;&gt;Emacs配置&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -63,6 +64,11 @@ xdebug.remote_host=172.17.0.1
 &lt;p&gt;通过&lt;code&gt;phpinfo()&lt;/code&gt;确保&lt;code&gt;php-xdebug&lt;/code&gt;配置无误：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://jmjoy.github.io/images/Docker+xdebug+emacs断点调试PHP程序/phpinfo.png&#34; alt=&#34;phpinfo&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;浏览器配置&#34;&gt;浏览器配置&lt;/h1&gt;
+
+&lt;p&gt;我使用的是firefox，需要一个叫&lt;code&gt;theeasiestxdebug&lt;/code&gt;的扩展来控制&lt;code&gt;xdebug&lt;/code&gt;的行为，chrome差不多，
+也可以不安装扩展，但是需要自己设置url的query参数或者cookie。&lt;/p&gt;
 
 &lt;h1 id=&#34;emacs配置&#34;&gt;Emacs配置&lt;/h1&gt;
 
