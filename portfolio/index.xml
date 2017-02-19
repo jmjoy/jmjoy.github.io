@@ -6,8 +6,21 @@
     <description>Recent content in Portfolios on Blog | Reading, programming and taking pills make me happy.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Feb 2017 11:06:14 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Feb 2017 23:04:42 +0800</lastBuildDate>
     <atom:link href="https://jmjoy.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>入坑fish</title>
+      <link>https://jmjoy.github.io/portfolio/%E5%85%A5%E5%9D%91fish/</link>
+      <pubDate>Sun, 19 Feb 2017 23:04:42 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/portfolio/%E5%85%A5%E5%9D%91fish/</guid>
+      <description>&lt;p&gt;最近闲聊无事，一直有听闻fish是比zsh还强劲的shell，跃跃欲试，所以今天就算个契机吧。
+fish不兼容bash啊，不过也是合理的事请，毕竟一味地兼容的话，历史包袱得多重啊。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://fishshell.com/&#34;&gt;fish官网&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Docker&#43;xdebug&#43;emacs断点调试PHP程序</title>
