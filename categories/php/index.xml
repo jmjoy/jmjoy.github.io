@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on __JM_Joy_Blog__</title>
+    <link>https://jmjoy.github.io/categories/php/</link>
+    <description>Recent content in php on __JM_Joy_Blog__</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 03 Feb 2017 11:06:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://jmjoy.github.io/categories/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker&#43;xdebug&#43;emacs断点调试PHP程序</title>
+      <link>https://jmjoy.github.io/post/docker&#43;xdebug&#43;emacs%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95php%E7%A8%8B%E5%BA%8F/</link>
+      <pubDate>Fri, 03 Feb 2017 11:06:14 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/docker&#43;xdebug&#43;emacs%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95php%E7%A8%8B%E5%BA%8F/</guid>
+      <description>Table of Contents Docker 配置 浏览器配置 Emacs配置 Docker 配置 首先得有一个配置好的docker image, 这里使用laraedit ，homestead的docker替代版</description>
+    </item>
+    
+    <item>
+      <title>propel</title>
+      <link>https://jmjoy.github.io/post/propel/</link>
+      <pubDate>Tue, 10 Jan 2017 23:39:22 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/propel/</guid>
+      <description>PHP重量级的ORM propel首页 甚至提供了sandbox作为online测试 ps. 现在选择库or工具首先都得看首页漂亮不漂亮啊 ~(≧▽≦)/</description>
+    </item>
+    
+    <item>
+      <title>laravel的一些学习资源</title>
+      <link>https://jmjoy.github.io/post/laravel%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</link>
+      <pubDate>Tue, 10 Jan 2017 21:57:01 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/laravel%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</guid>
+      <description>zhiming老司机提供的 Laravel 5.3 中文文档 http://laravelacademy.org/laravel-docs-5_3 laravel 快速构建后台组件 SleepingOwl Admin http://blog.c2567.com/2016-06-16/laravel-%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E5%90%8E%E5%8F%B0%E7%BB%84%E4%BB%B6-SleepingOwl-Admin/ https://github.com/LaravelRUS/SleepingOwlAdmin 消息系统 https://github.com/cmgmyr/laravel-messenger Laravel 的中大型專案架構 如何使用 Repository 模式? 如何使用 Service 模式? 如何使用 Presenter 模式</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>laravel on __JM_Joy_Blog__</title>
+    <link>https://jmjoy.github.io/tags/laravel/</link>
+    <description>Recent content in laravel on __JM_Joy_Blog__</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Jan 2017 21:57:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://jmjoy.github.io/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>laravel的一些学习资源</title>
+      <link>https://jmjoy.github.io/post/laravel%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</link>
+      <pubDate>Tue, 10 Jan 2017 21:57:01 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/laravel%E7%9A%84%E4%B8%80%E4%BA%9B%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</guid>
+      <description>zhiming老司机提供的 Laravel 5.3 中文文档 http://laravelacademy.org/laravel-docs-5_3 laravel 快速构建后台组件 SleepingOwl Admin http://blog.c2567.com/2016-06-16/laravel-%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E5%90%8E%E5%8F%B0%E7%BB%84%E4%BB%B6-SleepingOwl-Admin/ https://github.com/LaravelRUS/SleepingOwlAdmin 消息系统 https://github.com/cmgmyr/laravel-messenger Laravel 的中大型專案架構 如何使用 Repository 模式? 如何使用 Service 模式? 如何使用 Presenter 模式</description>
+    </item>
+    
+  </channel>
+</rss>

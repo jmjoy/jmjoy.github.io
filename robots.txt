@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://jmjoy.github.io/sitemap.xml

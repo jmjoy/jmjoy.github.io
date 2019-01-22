@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>orm on __JM_Joy_Blog__</title>
+    <link>https://jmjoy.github.io/tags/orm/</link>
+    <description>Recent content in orm on __JM_Joy_Blog__</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Jan 2017 23:39:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://jmjoy.github.io/tags/orm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>propel</title>
+      <link>https://jmjoy.github.io/post/propel/</link>
+      <pubDate>Tue, 10 Jan 2017 23:39:22 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/propel/</guid>
+      <description>PHP重量级的ORM propel首页 甚至提供了sandbox作为online测试 ps. 现在选择库or工具首先都得看首页漂亮不漂亮啊 ~(≧▽≦)/</description>
+    </item>
+    
+  </channel>
+</rss>
