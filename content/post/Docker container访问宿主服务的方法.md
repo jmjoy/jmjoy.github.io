@@ -3,7 +3,8 @@ date = "2017-02-02T23:00:51+08:00"
 title = "Docker container访问宿主服务的方法"
 showonlyimage = false
 image = ""
-
+categories = ["docker"]
+tags = ["docker"]
 +++
 
 http://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container

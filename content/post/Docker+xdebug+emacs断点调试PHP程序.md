@@ -3,7 +3,8 @@ date = "2017-02-03T11:06:14+08:00"
 title = "Docker+xdebug+emacs断点调试PHP程序"
 showonlyimage = false
 image = ""
-
+categories = ["php"]
+tags = ["php", "docker", "emacs" "debug"]
 +++
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->

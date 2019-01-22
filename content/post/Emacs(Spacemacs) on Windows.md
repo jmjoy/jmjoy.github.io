@@ -2,7 +2,7 @@
 date = "2016-03-20T21:41:58+08:00"
 draft = false
 title = "Emacs(Spacemacs) on Windows"
-
+categories = ["emacs"]
 +++
 
 虽说Emacs是一个跨平台的软件，但在Microsoft Windows上使用Emacs会出现很多其他平台上没有的问题，

@@ -2,12 +2,14 @@
 date = "2017-01-10T21:57:01+08:00"
 draft = false
 title = "laravel的一些学习资源"
-
+categories = ["php"]
+tags = ["laravel"]
 +++
 
-zhiming老司机提供的
+> zhiming老司机提供的
+>
 
-     
+
 ## Laravel 5.3 中文文档 ##
 
 http://laravelacademy.org/laravel-docs-5_3

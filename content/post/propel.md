@@ -2,7 +2,8 @@
 date = "2017-01-10T23:39:22+08:00"
 draft = false
 title = "propel"
-
+categories = ["php"]
+tags = ["orm"]
 +++
 
 

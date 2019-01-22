@@ -3,7 +3,7 @@ title = "入坑fish"
 showonlyimage = false
 image = ""
 date = "2017-02-19T23:04:42+08:00"
-
+categories = ["其他"]
 +++
 
 最近闲聊无事，一直有听闻fish是比zsh还强劲的shell，跃跃欲试，所以今天就算个契机吧。

@@ -2,7 +2,7 @@
 date = "2017-01-11T12:26:29+08:00"
 draft = false
 title = "eav模型"
-
+categories = ["理论"]
 +++
 
 ## EAV模型 ##
@@ -17,15 +17,3 @@ https://github.com/IsraelOrtuno/Eavquent
 http://blog.csdn.net/bruce_wang_janet/article/details/10788687
 
 http://craft6.cn/detail/b2c_schemes_eav_model.do
-
-
-| hello   | world    |
-|---------|----------|
-| what    | happen   |
-| sdfjk   | sdfjklsd |
-| sdfsadf | asdf     |
-|         |          |
-
-:clap:
-
-:smeargle:

@@ -3,7 +3,7 @@ date = "2017-02-25T22:32:47+08:00"
 title = "Linux高性能服务器学习笔记"
 showonlyimage = false
 image = "/images/Linux高性能服务器编程.jpg"
-
+categories = ["其他"]
 +++
 
 # 基础部分 #

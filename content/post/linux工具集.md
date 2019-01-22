@@ -2,7 +2,7 @@
 date = "2017-01-10T13:22:50+08:00"
 draft = false
 title = "linux工具集"
-
+categories = ["linux"]
 +++
 
 持续更新ing……

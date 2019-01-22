@@ -2,7 +2,8 @@
 date = "2017-01-10T10:29:19+08:00"
 draft = false
 title = "chrome：文件上传框打开慢的原因"
-
+categories = ["前端"]
+tags = ["chrome", "upload"]
 +++
 
 

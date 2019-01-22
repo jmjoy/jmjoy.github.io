@@ -4,7 +4,7 @@ date = "2017-01-27T15:39:41+08:00"
 title = "Eloquent和Eavquent源码分析笔记"
 image = ""
 draft = false
-
+categories = ["学习笔记"]
 +++
 
 Eloquent/Model

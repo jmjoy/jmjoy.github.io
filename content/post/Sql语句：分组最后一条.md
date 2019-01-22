@@ -2,7 +2,7 @@
 date = "2017-01-10T00:35:17+08:00"
 draft = false
 title = "Sql语句：分组最后一条"
-
+categories = ["mysql"]
 +++
 
 https://stackoverflow.com/questions/1313120/retrieving-the-last-record-in-each-group/1313293#1313293

@@ -2,7 +2,8 @@
 date = "2017-01-10T00:35:10+08:00"
 draft = false
 title = "firefox开发版"
-
+categories = ["其他"]
+tags = ["firefox"]
 +++
 
 今晚和同事闲聊的时候才知道有`Firefox develop editon`这回事！Firefox 也是隐藏地很深啊，一直都觉得firefox的手机调试非常烂，但是开发版的手机模拟挺不错了，和Chrome的不相上下，这下子可以彻底抛弃Chrome了。（以前我开发总是要开两个浏览器，Firefox和Chrome，Chrome主要是用来调试web app的，我投靠Firefox的主要原因只是因为Chrome不知持外部下载器而且它自身的下载太烂了。）
