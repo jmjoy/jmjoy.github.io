@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on __JM_Joy_Blog__</title>
+    <link>https://jmjoy.github.io/categories/linux/</link>
+    <description>Recent content in linux on __JM_Joy_Blog__</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Jan 2019 13:15:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://jmjoy.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>联想拯救者y7000安装deepin 15.9，解决无线网卡驱动问题</title>
+      <link>https://jmjoy.github.io/post/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%E5%AE%89%E8%A3%85deepin%E8%A7%A3%E5%86%B3%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Tue, 22 Jan 2019 13:15:13 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%E5%AE%89%E8%A3%85deepin%E8%A7%A3%E5%86%B3%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8%E9%97%AE%E9%A2%98/</guid>
+      <description>前段时间买了个新的笔记本（联想拯救者y7000），将服役了6年的老笔记本（联想Z480）上安装了deepin系统的固态硬盘直接搬过来作为新笔</description>
+    </item>
+    
+    <item>
+      <title>linux下共享samba文件夹的方法</title>
+      <link>https://jmjoy.github.io/post/linux%E4%B8%8B%E5%85%B1%E4%BA%ABsamba%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 21 Feb 2017 10:35:01 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/linux%E4%B8%8B%E5%85%B1%E4%BA%ABsamba%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>1 sudo mount -t cifs //SERVER/SHARE /MOUNT_DIR -o user=USER,password=PW,uid=$USER,gid=$USER</description>
+    </item>
+    
+    <item>
+      <title>linux工具集</title>
+      <link>https://jmjoy.github.io/post/linux%E5%B7%A5%E5%85%B7%E9%9B%86/</link>
+      <pubDate>Tue, 10 Jan 2017 13:22:50 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/linux%E5%B7%A5%E5%85%B7%E9%9B%86/</guid>
+      <description>持续更新ing…… Table of Contents Deepin 交换CapsLock和Esc键 dconf-editor VCS rabbitvcs 编程语言 Rust 国内源 USTC的源 php composer phpmd javascript 编辑器 Emacs Spacemacs Spacemacs相关工具 Fira Code 字</description>
+    </item>
+    
+  </channel>
+</rss>

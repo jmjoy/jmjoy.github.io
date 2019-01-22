@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>前端 on __JM_Joy_Blog__</title>
+    <link>https://jmjoy.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
+    <description>Recent content in 前端 on __JM_Joy_Blog__</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 21 Jan 2017 21:10:59 +0800</lastBuildDate>
+    
+	<atom:link href="https://jmjoy.github.io/categories/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Native相关资料</title>
+      <link>https://jmjoy.github.io/post/react-native%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</link>
+      <pubDate>Sat, 21 Jan 2017 21:10:59 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/react-native%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</guid>
+      <description>zhiming老司机提供的 // react入门 &amp;mdash; webpack入门 &amp;mdash; redux入门 &amp;mdash; react-router入门 &amp;mdash; react-bootstrap &amp;mdash; redux-form &amp;mdash; react-bootstrp-table 第一轮 React 入门实例教程</description>
+    </item>
+    
+    <item>
+      <title>chrome：文件上传框打开慢的原因</title>
+      <link>https://jmjoy.github.io/post/chrome%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%A1%86%E6%89%93%E5%BC%80%E6%85%A2%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
+      <pubDate>Tue, 10 Jan 2017 10:29:19 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/chrome%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%A1%86%E6%89%93%E5%BC%80%E6%85%A2%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
+      <description>http://www.w3school.com.cn/html5/att_input_accept.asp http://www.cnblogs.com/liangjiang/p/5799984.html 1 2 &amp;lt;input type=&amp;#34;file&amp;#34; name=&amp;#34;image&amp;#34; accept=&amp;#34;image/gif,image/jpeg,image/pjpeg,image/png,.png,image/bmp,image/x-windows-bmp,.bmp&amp;#34;&amp;gt; chrome 和 firefox 都有bug</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on __JM_Joy_Blog__</title>
+    <link>https://jmjoy.github.io/categories/docker/</link>
+    <description>Recent content in docker on __JM_Joy_Blog__</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Feb 2017 23:00:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://jmjoy.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker container访问宿主服务的方法</title>
+      <link>https://jmjoy.github.io/post/docker-container%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Thu, 02 Feb 2017 23:00:51 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/docker-container%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>http://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container Docker容器使用静态独立的外部IP（便于集群组建） https://my.oschina.net/gudaoxuri/blog/513923</description>
+    </item>
+    
+    <item>
+      <title>推荐几个docker镜像</title>
+      <link>https://jmjoy.github.io/post/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AAdocker%E9%95%9C%E5%83%8F/</link>
+      <pubDate>Sat, 14 Jan 2017 22:06:57 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AAdocker%E9%95%9C%E5%83%8F/</guid>
+      <description>homestead的docker替代版 webdevops的一系列关于PHP服务器的镜像</description>
+    </item>
+    
+  </channel>
+</rss>

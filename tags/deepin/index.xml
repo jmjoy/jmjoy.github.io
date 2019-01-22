@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deepin on __JM_Joy_Blog__</title>
+    <link>https://jmjoy.github.io/tags/deepin/</link>
+    <description>Recent content in deepin on __JM_Joy_Blog__</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Jan 2019 13:15:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://jmjoy.github.io/tags/deepin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>联想拯救者y7000安装deepin 15.9，解决无线网卡驱动问题</title>
+      <link>https://jmjoy.github.io/post/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%E5%AE%89%E8%A3%85deepin%E8%A7%A3%E5%86%B3%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Tue, 22 Jan 2019 13:15:13 +0800</pubDate>
+      
+      <guid>https://jmjoy.github.io/post/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%E5%AE%89%E8%A3%85deepin%E8%A7%A3%E5%86%B3%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8%E9%97%AE%E9%A2%98/</guid>
+      <description>前段时间买了个新的笔记本（联想拯救者y7000），将服役了6年的老笔记本（联想Z480）上安装了deepin系统的固态硬盘直接搬过来作为新笔</description>
+    </item>
+    
+  </channel>
+</rss>
