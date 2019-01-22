@@ -42,7 +42,7 @@ typora-root-url: ../../../static
 
   使用命令`dmesg`查看日志，如果出现
 
-  ![dmesg_r8822de](/image/linux/dmesg_r8822de.png)
+  ![dmesg_r8822de](/images/linux/dmesg_r8822de.png)
 
   那很可能就是这个问题。
 
@@ -56,7 +56,7 @@ lspci
 
 找到如下输出：
 
-![lspci](/image/linux/lspci.png)
+![lspci](/images/linux/lspci.png)
 
 可以知道无线网卡的型号是rtl8822be。
 

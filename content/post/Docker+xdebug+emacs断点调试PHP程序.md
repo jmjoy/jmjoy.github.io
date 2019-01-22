@@ -4,7 +4,7 @@ title = "Docker+xdebug+emacs断点调试PHP程序"
 showonlyimage = false
 image = ""
 categories = ["php"]
-tags = ["php", "docker", "emacs" "debug"]
+tags = ["php", "docker", "emacs", "debug"]
 +++
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
