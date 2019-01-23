@@ -79,7 +79,7 @@ echo "blacklist ideapad_laptop" | sudo tee /etc/modprobe.d/backlist-ideapad.conf
 ### 解决网卡驱动的电源管理问题
 
 ```bash
-echo "blacklist ideapad_laptop" | sudo tee /etc/modprobe.d/disableideapad.conf
+echo "options r8822be aspm=0" | sudo tee /etc/modprobe.d/r8822be.conf
 ```
 
 
