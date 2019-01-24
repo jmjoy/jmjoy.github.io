@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Linux高性能服务器学习笔记 - __JM_Joy_Blog__</title>
+  <title>Wine(playonlinux)中文乱码解决方案 - __JM_Joy_Blog__</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="__JM_Joy__" /><meta name="description" content="基础部分 查看DNS cat /etc/resolv.conf nameserver开头的就是DNS服务器的IP地址 查看IP地址 host -t A www.baidu.com 查看MTU分片长度 ifcofnig 查看路由表 route 是否允许IP转" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="__JM_Joy__" /><meta name="description" content="[相关链接] https://blog.csdn.net/ysy950803/article/details/80326832 将中文字体copy到对应wine的目录（本地安装的wine是~/.wine，playonlinux是.PlayOnLinux/" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.53 with even 4.0.0" />
 
 
-<link rel="canonical" href="https://jmjoy.github.io/post/linux%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+<link rel="canonical" href="https://jmjoy.github.io/post/wineplayonlinux%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,26 +38,26 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Linux高性能服务器学习笔记" />
-<meta property="og:description" content="基础部分 查看DNS cat /etc/resolv.conf nameserver开头的就是DNS服务器的IP地址 查看IP地址 host -t A www.baidu.com 查看MTU分片长度 ifcofnig 查看路由表 route 是否允许IP转" />
+<meta property="og:title" content="Wine(playonlinux)中文乱码解决方案" />
+<meta property="og:description" content="[相关链接] https://blog.csdn.net/ysy950803/article/details/80326832 将中文字体copy到对应wine的目录（本地安装的wine是~/.wine，playonlinux是.PlayOnLinux/" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jmjoy.github.io/post/linux%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" /><meta property="article:published_time" content="2017-02-25T22:32:47&#43;08:00"/>
-<meta property="article:modified_time" content="2017-02-25T22:32:47&#43;08:00"/>
+<meta property="og:url" content="https://jmjoy.github.io/post/wineplayonlinux%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" /><meta property="article:published_time" content="2019-01-24T20:31:51&#43;08:00"/>
+<meta property="article:modified_time" content="2019-01-24T20:31:51&#43;08:00"/>
 
-<meta itemprop="name" content="Linux高性能服务器学习笔记">
-<meta itemprop="description" content="基础部分 查看DNS cat /etc/resolv.conf nameserver开头的就是DNS服务器的IP地址 查看IP地址 host -t A www.baidu.com 查看MTU分片长度 ifcofnig 查看路由表 route 是否允许IP转">
-
-
-<meta itemprop="datePublished" content="2017-02-25T22:32:47&#43;08:00" />
-<meta itemprop="dateModified" content="2017-02-25T22:32:47&#43;08:00" />
-<meta itemprop="wordCount" content="73">
+<meta itemprop="name" content="Wine(playonlinux)中文乱码解决方案">
+<meta itemprop="description" content="[相关链接] https://blog.csdn.net/ysy950803/article/details/80326832 将中文字体copy到对应wine的目录（本地安装的wine是~/.wine，playonlinux是.PlayOnLinux/">
 
 
+<meta itemprop="datePublished" content="2019-01-24T20:31:51&#43;08:00" />
+<meta itemprop="dateModified" content="2019-01-24T20:31:51&#43;08:00" />
+<meta itemprop="wordCount" content="224">
 
-<meta itemprop="keywords" content="" />
+
+
+<meta itemprop="keywords" content="wine," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Linux高性能服务器学习笔记"/>
-<meta name="twitter:description" content="基础部分 查看DNS cat /etc/resolv.conf nameserver开头的就是DNS服务器的IP地址 查看IP地址 host -t A www.baidu.com 查看MTU分片长度 ifcofnig 查看路由表 route 是否允许IP转"/>
+<meta name="twitter:title" content="Wine(playonlinux)中文乱码解决方案"/>
+<meta name="twitter:description" content="[相关链接] https://blog.csdn.net/ysy950803/article/details/80326832 将中文字体copy到对应wine的目录（本地安装的wine是~/.wine，playonlinux是.PlayOnLinux/"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -124,12 +124,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Linux高性能服务器学习笔记</h1>
+      <h1 class="post-title">Wine(playonlinux)中文乱码解决方案</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2017-02-25 </span>
+        <span class="post-time"> 2019-01-24 </span>
         <div class="post-category">
-            <a href="/categories/%E5%85%B6%E5%AE%83/"> 其它 </a>
+            <a href="/categories/linux/"> linux </a>
             </div>
         
       </div>
@@ -138,29 +138,59 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-<ul>
-<li><a href="#基础部分">基础部分</a></li>
-</ul>
-</nav>
+    
   </div>
 </div>
     <div class="post-content">
-      
-
-<h1 id="基础部分">基础部分</h1>
+      <blockquote>
+<p>[相关链接] <a href="https://blog.csdn.net/ysy950803/article/details/80326832">https://blog.csdn.net/ysy950803/article/details/80326832</a></p>
+</blockquote>
 
 <ol>
-<li><p>查看DNS <code>cat /etc/resolv.conf</code>
-<em>nameserver开头的就是DNS服务器的IP地址</em></p></li>
+<li><p>将中文字体copy到对应wine的目录（本地安装的wine是<code>~/.wine</code>，playonlinux是<code>.PlayOnLinux/wineprefix/对应目录</code>）下的<code>drive_c/windows/Fonts/</code>。</p></li>
 
-<li><p>查看IP地址 <code>host -t A www.baidu.com</code></p></li>
+<li><p>在wine目录下任意位置添加<code>modify_font.reg</code>文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-ini" data-lang="ini"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-ini" data-lang="ini"><span class="na">REGEDIT4</span>
 
-<li><p>查看MTU分片长度 <code>ifcofnig</code></p></li>
+<span class="k">[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink]</span>
+<span class="na">&#34;Lucida Sans Unicode&#34;</span><span class="o">=</span><span class="s">&#34;msyh.ttc&#34;</span>
+<span class="na">&#34;Microsoft Sans Serif&#34;</span><span class="o">=</span><span class="s">&#34;msyh.ttc&#34;</span>
+<span class="na">&#34;MS Sans Serif&#34;</span><span class="o">=</span><span class="s">&#34;msyh.ttc&#34;</span>
+<span class="na">&#34;Tahoma&#34;</span><span class="o">=</span><span class="s">&#34;msyh.ttc&#34;</span>
+<span class="na">&#34;Tahoma Bold&#34;</span><span class="o">=</span><span class="s">&#34;msyhbd.ttc&#34;</span>
+<span class="na">&#34;msyh&#34;</span><span class="o">=</span><span class="s">&#34;msyh.ttc&#34;</span>
+<span class="na">&#34;Arial&#34;</span><span class="o">=</span><span class="s">&#34;msyh.ttc&#34;</span>
+<span class="na">&#34;Arial Black&#34;</span><span class="o">=</span><span class="s">&#34;msyh.ttc&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>将<code>msyh.ttc</code>改成自己想改的中文字体。</p></li>
 
-<li><p>查看路由表 <code>route</code></p></li>
+<li><p>在wine命令提示符运行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">regedit modify_font.reg</code></pre></td></tr></table>
+</div>
+</div></li>
 
-<li><p>是否允许IP转发 <code>cat /proc/sys/net/ipv4/ip_forward</code></p></li>
+<li><p>在wine模拟重启电脑即可。</p></li>
 </ol>
 
     </div>
@@ -172,20 +202,18 @@
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2017-02-25</span>
+    <span class="item-content">2019-01-24</span>
   </p>
   
   
 </div><footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="/tags/wine/">wine</a>
+          </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%E5%AE%89%E8%A3%85deepin%E8%A7%A3%E5%86%B3%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8%E9%97%AE%E9%A2%98/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">联想拯救者y7000安装deepin 15.9，解决无线网卡驱动问题</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/linux%E4%B8%8B%E5%85%B1%E4%BA%ABsamba%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E6%96%B9%E6%B3%95/">
-            <span class="next-text nav-default">linux下共享samba文件夹的方法</span>
+        
+        <a class="next" href="/post/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%E5%AE%89%E8%A3%85deepin%E8%A7%A3%E5%86%B3%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8%E9%97%AE%E9%A2%98/">
+            <span class="next-text nav-default">联想拯救者y7000安装deepin 15.9，解决无线网卡驱动问题</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
