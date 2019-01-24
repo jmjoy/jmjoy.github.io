@@ -2,7 +2,7 @@
 date = "2017-01-10T00:35:10+08:00"
 draft = false
 title = "firefox开发版"
-categories = ["其他"]
+categories = ["其它"]
 tags = ["firefox"]
 +++
 
