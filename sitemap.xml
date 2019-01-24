@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jmjoy.github.io/post/wineplayonlinux%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2019-01-24T20:31:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jmjoy.github.io/post/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%E5%AE%89%E8%A3%85deepin%E8%A7%A3%E5%86%B3%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E9%A9%B1%E5%8A%A8%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2019-01-22T13:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,8 +129,50 @@
   </url>
   
   <url>
+    <loc>https://jmjoy.github.io/post/linux%E4%B8%8B%E5%9B%BE%E5%BD%A2%E5%8C%96svn%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2016-12-29T12:19:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jmjoy.github.io/post/%E5%A4%9A%E7%BB%A7%E6%89%BF%E5%AE%8C%E7%BE%8E%E9%97%AA%E9%81%BF%E6%88%90%E5%91%98%E5%90%8D%E5%86%B2%E7%AA%81%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2016-06-10T01:15:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jmjoy.github.io/post/rust%E7%9A%84%E5%A4%9A%E7%BB%A7%E6%89%BF%E5%92%8Cmixin%E6%9C%BA%E5%88%B6/</loc>
+    <lastmod>2016-05-23T19:22:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jmjoy.github.io/post/emacsspacemacs-on-windows/</loc>
     <lastmod>2016-03-20T21:41:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jmjoy.github.io/post/emacs%E5%9C%A8minibuffer%E9%87%8C%E7%9A%84%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2016-03-01T00:25:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jmjoy.github.io/post/emacs%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2016-02-25T17:05:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jmjoy.github.io/post/ubuntu%E4%BA%A4%E6%8D%A2caplock%E5%92%8Cesc/</loc>
+    <lastmod>2016-02-24T20:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -136,7 +185,7 @@
   
   <url>
     <loc>https://jmjoy.github.io/post/</loc>
-    <lastmod>2019-01-22T13:15:13+08:00</lastmod>
+    <lastmod>2019-01-24T20:31:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -149,7 +198,7 @@
   
   <url>
     <loc>https://jmjoy.github.io/</loc>
-    <lastmod>2019-01-22T13:15:13+08:00</lastmod>
+    <lastmod>2019-01-24T20:31:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -176,13 +225,6 @@
   </url>
   
   <url>
-    <loc>https://jmjoy.github.io/tags/docker/</loc>
-    <lastmod>2017-02-03T11:06:14+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jmjoy.github.io/categories/docker/</loc>
     <lastmod>2017-02-02T23:00:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -190,7 +232,7 @@
   </url>
   
   <url>
-    <loc>https://jmjoy.github.io/tags/emacs/</loc>
+    <loc>https://jmjoy.github.io/tags/docker/</loc>
     <lastmod>2017-02-03T11:06:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -199,6 +241,13 @@
   <url>
     <loc>https://jmjoy.github.io/categories/emacs/</loc>
     <lastmod>2016-03-20T21:41:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jmjoy.github.io/tags/emacs/</loc>
+    <lastmod>2017-02-03T11:06:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -218,14 +267,14 @@
   </url>
   
   <url>
-    <loc>https://jmjoy.github.io/tags/linux/</loc>
-    <lastmod>2019-01-22T13:15:13+08:00</lastmod>
+    <loc>https://jmjoy.github.io/categories/linux/</loc>
+    <lastmod>2019-01-24T20:31:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jmjoy.github.io/categories/linux/</loc>
+    <loc>https://jmjoy.github.io/tags/linux/</loc>
     <lastmod>2019-01-22T13:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -246,14 +295,14 @@
   </url>
   
   <url>
-    <loc>https://jmjoy.github.io/tags/php/</loc>
+    <loc>https://jmjoy.github.io/categories/php/</loc>
     <lastmod>2017-02-03T11:06:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jmjoy.github.io/categories/php/</loc>
+    <loc>https://jmjoy.github.io/tags/php/</loc>
     <lastmod>2017-02-03T11:06:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -274,6 +323,13 @@
   </url>
   
   <url>
+    <loc>https://jmjoy.github.io/tags/wine/</loc>
+    <lastmod>2019-01-24T20:31:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jmjoy.github.io/tags/y7000/</loc>
     <lastmod>2019-01-22T13:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -281,7 +337,7 @@
   </url>
   
   <url>
-    <loc>https://jmjoy.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://jmjoy.github.io/categories/%E5%85%B6%E5%AE%83/</loc>
     <lastmod>2017-02-25T22:32:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -290,13 +346,6 @@
   <url>
     <loc>https://jmjoy.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2017-01-21T21:10:59+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jmjoy.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2017-01-27T15:39:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
