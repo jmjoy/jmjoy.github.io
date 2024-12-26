@@ -21,7 +21,59 @@ description = "jmjoy's blog"
 subtitle = "要做的事还有很多_"
 banner = "images/banner.webp"
 preloader = { enable = false }
-firework = { enable = false }
+reimu_cursor = false
+# firework = { enable = false }
 open_graph = { enable = false }
-footer = { since = "2024", powered = true, count = false, busuanzi = false, icon = { url = "", rotate = true, mask = true } }
 sidebar = "right"
+icon_font = false
+
+[params.algolia_search]
+enable = true
+appID = "C2ET8LMPF9"
+apiKey = "b0adabfaae28860ec6dd0d9896530884"
+indexName = "algolia"
+
+[params.footer]
+since = "2024"
+powered = true
+count = false
+busuanzi = false
+
+[params.footer.icon]
+url = "../images/copyright.webp"
+rotate = false
+mask = false
+
+[params.top.icon]
+url = "../images/top.webp"
+rotate = false
+mask = false
+
+[params.giscus]
+enable = true
+repo = "jmjoy/jmjoy.github.io"
+repoId = "MDEwOlJlcG9zaXRvcnk1MTA3ODg4Mw=="
+category = "Announcements"
+categoryId = "DIC_kwDOAwtm484Clhbw"
+mapping = "mapping"
+strict = 0
+reactionsEnabled = 1
+emitMetadata = 0
+inputPosition = "bottom"
+lang = "zh-CN"
+
+[params.social]
+github = "https://github.com/jmjoy"
+
+[markup.highlight]
+guessSyntax = true
+noClasses = false
+
+[outputs]
+home = ["Algolia", "HTML", "RSS"]
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
