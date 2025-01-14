@@ -1,3 +1,10 @@
+---
+title: "Sql语句：分组最后一条"
+date: 2019-08-18T14:50:19+08:00
+categories: ["数据库"]
+tags: []
+---
+
 https://stackoverflow.com/questions/1313120/retrieving-the-last-record-in-each-group/1313293#1313293
 
 别笑，这个问题困惑了我很久，我曾经用过两个子查询的语句去做，导致性能挺差的，也试过用一张中间表去保存最后的
@@ -13,4 +20,3 @@ WHERE m2.id IS NULL;
 ```
 
 感谢解答了这个问题的大佬！
-

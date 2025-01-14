@@ -1,3 +1,10 @@
+---
+title: "Nginx配置转发DNS"
+date: 2021-06-23T14:09:10+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 Nginx配置转发DNS
 
 配置如下：

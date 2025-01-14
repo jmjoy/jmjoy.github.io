@@ -1,3 +1,10 @@
+---
+title: "在CentOS7上编译SkyWalking-PHP-Agent"
+date: 2023-08-23T12:51:33+08:00
+categories: ["杂谈"]
+tags: []
+---
+
 需要安装的项目链接：<https://github.com/apache/skywalking-php>
 项目文档：<https://skywalking.apache.org/docs/skywalking-php/next/en/setup/service-agent/php-agent/readme/>
 

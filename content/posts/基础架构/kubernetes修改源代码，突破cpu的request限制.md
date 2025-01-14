@@ -1,3 +1,10 @@
+---
+title: "kubernetes修改源代码，突破cpu的request限制"
+date: 2021-02-04T17:18:48+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 ## 背景
 
 由于业务方配置Deployment时设置resource的request过大，以及linux内核在4.19版本之前的关于cgroup的cpu限流问题，导致node的资源使用率并不高的情况下，node却不能被调度更多的Pod，故采取修改kubernetes源码的方式来解决。

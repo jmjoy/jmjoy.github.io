@@ -1,3 +1,10 @@
+---
+title: "Nginx信号的坑"
+date: 2021-01-09T22:35:25+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 Nginx有一个坑，应该是作者理解反了SIGTREM和SIGQUIT的含义，引用[官方文档](http://nginx.org/en/docs/control.html
 )的描述：
 > TERM, INT	fast shutdown

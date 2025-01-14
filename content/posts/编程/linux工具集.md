@@ -1,3 +1,10 @@
+---
+title: "linux工具集"
+date: 2019-08-18T14:49:07+08:00
+categories: ["编程"]
+tags: []
+---
+
 # Deepin #
 
 [deepin官方网站](https://www.deepin.org/)

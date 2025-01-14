@@ -1,3 +1,10 @@
+---
+title: "Docker参考配置"
+date: 2020-07-29T14:17:12+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 文件： /ect/docker/daemon.json
 
 ```json

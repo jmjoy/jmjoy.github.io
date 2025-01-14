@@ -1,3 +1,10 @@
+---
+title: "记一次gitlab runner的bug"
+date: 2019-09-27T19:46:57+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 今天给一个项目添加`gitlab ci`，发现`gitlab runner`死都`git clone`不到项目，检查了数遍配置（`.gitlab.yml`， `Deploy  SSH key`等等），但是不觉得有问题，非常恼火。后来平静下来google找答案，发现这TM居然是gitlab的BUG（还是特性，不太清楚），遂解决。
 
 相关讨论：

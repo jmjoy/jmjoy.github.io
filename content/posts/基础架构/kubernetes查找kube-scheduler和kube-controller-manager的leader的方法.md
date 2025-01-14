@@ -1,3 +1,10 @@
+---
+title: "kubernetes查找kube-scheduler和kube-controller-manager的leader的方法"
+date: 2021-02-05T15:20:53+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 kubernetes查找kube-scheduler和kube-controller-manager的leader的方法
 
 ## kube-scheduler

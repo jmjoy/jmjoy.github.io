@@ -1,3 +1,10 @@
+---
+title: "Linux内核编译+Grub修改启动项"
+date: 2019-10-25T22:57:48+08:00
+categories: ["装机"]
+tags: []
+---
+
 >Linux内核编译参考：[https://linux.cn/article-9665-1.html](https://linux.cn/article-9665-1.html)
 >Grub修改启动项参考：[https://www.cnblogs.com/open-skill/p/8295234.html](https://www.cnblogs.com/open-skill/p/8295234.html)
 

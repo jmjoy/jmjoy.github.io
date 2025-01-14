@@ -1,3 +1,10 @@
+---
+title: "k8s如何使用service和endpoint转发外部服务？"
+date: 2021-01-08T18:00:23+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 并不是service暴露一个外部ip，而是service转发外部ip+port，做法如下：
 
 首先，创建endpoint：

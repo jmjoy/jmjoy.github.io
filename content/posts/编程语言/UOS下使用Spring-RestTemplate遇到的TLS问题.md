@@ -1,3 +1,10 @@
+---
+title: "UOS下使用Spring RestTemplate遇到的TLS问题"
+date: 2021-11-26T15:43:47+08:00
+categories: ["编程语言"]
+tags: []
+---
+
 UOS下使用Spring RestTemplate，添加如下依赖：
 
 ```java

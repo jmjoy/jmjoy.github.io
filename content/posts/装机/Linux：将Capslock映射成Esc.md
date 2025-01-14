@@ -1,3 +1,10 @@
+---
+title: "Linux：将Capslock映射成Esc"
+date: 2023-01-31T15:36:44+08:00
+categories: ["装机"]
+tags: []
+---
+
 **只在X11下有效。**
 
 ## 临时设置

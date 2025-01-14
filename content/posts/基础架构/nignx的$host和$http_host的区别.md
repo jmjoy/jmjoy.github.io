@@ -1,3 +1,10 @@
+---
+title: "nignx的$host和$http_host的区别"
+date: 2019-11-25T22:34:14+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 > I would like to add another important point not mentioned in the accepted answer.
 > 
 > \$host do NOT have port number, while $http_host DO include the port number.
