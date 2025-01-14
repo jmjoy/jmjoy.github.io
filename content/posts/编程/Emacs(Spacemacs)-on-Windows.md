@@ -1,3 +1,10 @@
+---
+title: "Emacs(Spacemacs)-on-Windows"
+date: 2019-08-18T14:47:39+08:00
+categories: ["编程"]
+tags: []
+---
+
 虽说Emacs是一个跨平台的软件，但在Microsoft Windows上使用Emacs会出现很多其他平台上没有的问题，
 但是要用的始终要用，那就慢慢解决问题呗。
 
@@ -33,4 +40,3 @@ https://github.com/arnested/drupal-mode/issues/67#issuecomment-198870045
 diffutil使用。
 
 http://gnuwin32.sourceforge.net/packages/diffutils.htm
-

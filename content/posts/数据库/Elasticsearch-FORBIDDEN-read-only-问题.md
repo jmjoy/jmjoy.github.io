@@ -1,3 +1,10 @@
+---
+title: "Elasticsearch FORBIDDEN read-only 问题"
+date: 2020-12-15T16:26:37+08:00
+categories: ["数据库"]
+tags: []
+---
+
 类似报错：
 
 {"error":{"root_cause":[{"type":"cluster_block_exception","reason":"blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];"}],"type":"cluster_block_exception","reason":"blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];"},"status":403}

@@ -1,3 +1,10 @@
+---
+title: "php-fpm运行时，扩展里面MINIT,MSHUTDOWN,RINIT,RSHUTDOWN四个函数的执行过程"
+date: 2021-04-06T16:28:55+08:00
+categories: ["编程语言"]
+tags: []
+---
+
 参考文章：<http://blog.sina.com.cn/s/blog_4d88b5b50102wu8i.html>
 
 我的测试代码片段：
@@ -62,4 +69,3 @@ PHP_RSHUTDOWN_FUNCTION(test)
 然后预先创建好`/tmp/test`，注意php-fpm的pool的用户如果不是root的话，一定要设置成a+w的权限啊，不然php-fpm就报错`SIGABRT`或者`SIGSEGV`，让人摸不着头脑。
 
 直接打印东西来调试是不行的，因为`PHP_RINIT_FUNCTION`和`PHP_RSHUTDOWN_FUNCTION`会在pool的进程里面被调用，标准输出已经被劫持了吧。
-

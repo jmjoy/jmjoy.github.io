@@ -1,3 +1,10 @@
+---
+title: "Linux下普通用户（非root）使用wireshark抓包"
+date: 2020-05-10T01:21:25+08:00
+categories: ["网络"]
+tags: []
+---
+
 Wireshark是不推荐使用root用户去跑的，原因大家都懂，就是不够安全，而且wireshark有些个性化配置的东西，当然是保存到普通用户下比较好。
 
 可是抓包需要root权限。

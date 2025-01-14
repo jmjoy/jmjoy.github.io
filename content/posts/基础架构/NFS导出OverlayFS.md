@@ -1,3 +1,10 @@
+---
+title: "NFS导出OverlayFS"
+date: 2020-04-20T13:07:25+08:00
+categories: ["基础架构"]
+tags: []
+---
+
 需要Linux内核版本 > 4.16， 内核开启选项`OVERLAY_FS_NFS_EXPORT`，同时`mount -t overlay`时指定`-o nfs_export=on`。
 NFS使用`showmount -e localhost`查看挂载点。
 使用`modinfo overlay | grep nfs`查看overlay是否支持nfs。

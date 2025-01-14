@@ -1,3 +1,10 @@
+---
+title: "使用调试器的attach功能调试多进程架构的程序"
+date: 2021-06-24T09:59:14+08:00
+categories: ["编程"]
+tags: []
+---
+
 对于多进程架构的程序，如服务器程序nginx和php-fpm等，调试子进程需要用到调试器的attach功能。
 
 下面以Clion和php-fpm为例，调试步骤如下，其他编辑器/IDE和程序可以作为参考：
@@ -32,4 +39,3 @@ sudo sysctl kernel.yama.ptrace_scope=0
 5. 在Clion上打上调试断点，然后用Postman等工具做请求，就可以看到调试器进入到相应的位置了：
 
 ![调试](https://upload-images.jianshu.io/upload_images/18494435-a2c4ae154176c655.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-

@@ -1,3 +1,10 @@
+---
+title: "Docker+xdebug+emacs断点调试PHP程序"
+date: 2019-08-18T14:46:36+08:00
+categories: ["编程"]
+tags: []
+---
+
 # Docker 配置 #
 
 首先得有一个配置好的`docker image`, 这里使用[laraedit](https://hub.docker.com/r/laraedit/laraedit/) ，homestead的docker替代版，已经包含了php的`xdebug`扩展。

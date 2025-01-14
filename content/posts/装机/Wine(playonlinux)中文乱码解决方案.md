@@ -1,3 +1,10 @@
+---
+title: "Wine(playonlinux)中文乱码解决方案"
+date: 2019-08-18T14:50:52+08:00
+categories: ["装机"]
+tags: []
+---
+
 > [相关链接] https://blog.csdn.net/ysy950803/article/details/80326832
 
 1. 将中文字体copy到对应wine的目录（本地安装的wine是`~/.wine`，playonlinux是`.PlayOnLinux/wineprefix/对应目录`）下的`drive_c/windows/Fonts/`。

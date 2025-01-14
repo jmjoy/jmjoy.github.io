@@ -1,3 +1,10 @@
+---
+title: "Spring相关资料汇总"
+date: 2021-03-10T16:44:00+08:00
+categories: ["编程语言"]
+tags: []
+---
+
 ## 实现自定义的Spring AOP注解
 <https://www.baeldung.com/spring-aop-annotation#creating-our-aspect>
 

@@ -1,3 +1,10 @@
+---
+title: "Elasticsearch常用调试命令"
+date: 2021-05-24T15:35:02+08:00
+categories: ["数据库"]
+tags: []
+---
+
 查看cluster健康状态（颜色、分片等）：
 http://127.0.0.1:9200/_cluster/health?pretty
 
