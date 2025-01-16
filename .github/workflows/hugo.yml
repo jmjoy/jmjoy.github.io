@@ -65,6 +65,7 @@ jobs:
           algolia-app-id: "C2ET8LMPF9"
           algolia-api-key: "${{ secrets.ALGOLIA_ADMIN_KEY }}"
           algolia-index-name: "algolia"
+          algolia-index-file: "./public/algolia.json"
 
   # Deployment job
   deploy:
