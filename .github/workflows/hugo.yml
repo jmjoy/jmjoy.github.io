@@ -60,7 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - uses: wangchucheng/algolia-uploader@v0.1.0
+      - uses: wangchucheng/algolia-uploader@master
         with:
           app_id: C2ET8LMPF9
           admin_key: "${{ secrets.ALGOLIA_ADMIN_KEY }}"
