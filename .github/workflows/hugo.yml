@@ -60,12 +60,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - uses: wangchucheng/algolia-uploader@master
+      - uses: razonyang/hugo-theme-bootstrap-algolia-action@v0.1.1
         with:
-          app_id: C2ET8LMPF9
-          admin_key: "${{ secrets.ALGOLIA_ADMIN_KEY }}"
-          index_name: "algolia"
-          index_file_path: "./public/algolia.json"
+          algolia-app-id: "C2ET8LMPF9"
+          algolia-api-key: "${{ secrets.ALGOLIA_ADMIN_KEY }}"
+          algolia-index-name: "algolia"
 
   # Deployment job
   deploy:
