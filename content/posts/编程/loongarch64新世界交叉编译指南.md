@@ -1,6 +1,7 @@
 +++
 date = '2025-01-16T15:36:21+08:00'
 title = 'Loongarch64新世界交叉编译指南'
+tags = ["loongarch"]
 +++
 
 ## C语言项目
