@@ -66,7 +66,7 @@ jobs:
         run: jq -c '.[]' ./public/algolia.json | algolia objects import algolia -F -
         env:
           ALGOLIA_APPLICATION_ID: C2ET8LMPF9
-          ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+          ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
 
   # Deployment job
   deploy:
