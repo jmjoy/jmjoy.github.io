@@ -60,12 +60,13 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      # - uses: tilburgsciencehub/algolia-uploader@master
-      #   with:
-      #     app_id: "C2ET8LMPF9"
-      #     admin_key: "${{ secrets.ALGOLIA_ADMIN_KEY }}"
-      #     index_name: "algolia"
-      #     index_file_path: "./public/algolia.json"
+      - name: Install algolia cli
+        uses: algolia/setup-algolia-cli@master
+      - name: Update algolia index
+        run: jq -c '.[]' ./public/algolia.json | algolia objects import algolia -F -
+        env:
+          ALGOLIA_APPLICATION_ID: C2ET8LMPF9
+          ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
 
   # Deployment job
   deploy:
