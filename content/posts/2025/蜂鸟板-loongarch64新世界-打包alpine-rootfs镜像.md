@@ -114,6 +114,7 @@ cover = "/images/posts/alpine-2k0300.webp"
 1. 重新压缩`rootfs.img`：
 
    ```shell
+   sudo umount /tmp/alpine-mnt
    gzip rootfs.img
    mv rootfs.img.gz rootfs.img
    ```
