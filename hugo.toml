@@ -11,9 +11,9 @@ theme = 'hugo-theme-reimu'
 
 [params]
 menu = [
-    { name = "home", url = "", icon = "1F3E0" },
-    { name = "archives", url = "archives", icon = "1F5C4" },
-    { name = "about", url = "about", icon = "2139" },
+    { name = "home", url = "", icon = "f015" },
+    { name = "archives", url = "archives", icon = "f01c" },
+    { name = "about", url = "about", icon = "f05a" },
 ]
 mainSections = ["posts"]
 author = "jmjoy"
@@ -68,6 +68,11 @@ github = "https://github.com/jmjoy"
 [markup.highlight]
 guessSyntax = true
 noClasses = false
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
+delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
 
 [outputs]
 home = ["Algolia", "HTML", "RSS"]
