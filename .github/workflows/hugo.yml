@@ -67,6 +67,7 @@ jobs:
         env:
           ALGOLIA_APPLICATION_ID: C2ET8LMPF9
           ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+        continue-on-error: true
 
   # Deployment job
   deploy:
