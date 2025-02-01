@@ -1,6 +1,7 @@
 baseURL = 'https://jmjoy.github.io/'
 languageCode = 'zh-CN'
 defaultContentLanguage = 'zh-CN'
+hasCJKLanguage = true
 title = "jmjoy's blog"
 theme = 'hugo-theme-reimu'
 
