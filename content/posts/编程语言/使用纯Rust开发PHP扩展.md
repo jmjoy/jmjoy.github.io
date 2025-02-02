@@ -4,7 +4,7 @@ date: 2019-12-22T00:05:00+08:00
 description: ""
 featured_image: ""
 categories: ["编程语言"]
-tags: ["Rust", "PHP", "PHP扩展"]
+tags: ["Rust", "PHP"]
 ---
 
 ## 背景
