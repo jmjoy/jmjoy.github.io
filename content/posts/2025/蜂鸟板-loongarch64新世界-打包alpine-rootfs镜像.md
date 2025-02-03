@@ -22,6 +22,7 @@ cover = "/images/posts/alpine-2k0300.webp"
 1. 在该环境中解压alpine-minirootfs文件，可以得到一个根目录文件夹，假设目录是`/tmp/alpine`，运行以下命令chroot到minirootfs：
 
    ```shell
+   cd /tmp/alpine
    mount -o bind /proc proc/
    mount -o bind /dev dev/
    mount -o bind /sys sys/
@@ -125,3 +126,8 @@ cover = "/images/posts/alpine-2k0300.webp"
 
 1. <https://gist.github.com/lidgnulinux/4b40d72d358528e76c6f9be4ad6cbaa5>
 1. <https://wiki.luckfox.com/zh/Luckfox-Pico/Luckfox-Pico-Alpine-Linux-2/>
+
+## 后记
+
+由于Alpine已经合并请求[`main/gcc: enable 128-bit vectors (LSX) by default for loongarch64
+`](https://gitlab.alpinelinux.org/alpine/aports/-/merge_requests/74062)，默认开启LSX，因此`Alpine 3.21`将是第一个也是最后一个支持`2k300`的版本，且行且珍惜。
