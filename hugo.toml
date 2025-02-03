@@ -79,7 +79,7 @@ delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
 delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
 
 [outputs]
-home = ["Algolia", "HTML", "RSS"]
+home = ["Algolia", "HTML", "RSS", "Sitemap"]
 
 [outputFormats.Algolia]
 baseName = "algolia"
