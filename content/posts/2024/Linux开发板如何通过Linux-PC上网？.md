@@ -28,3 +28,11 @@ iptables -t nat -A POSTROUTING -o $NET_INTER -j MASQUERADE
 iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 iptables -A FORWARD -i $NET_BOARD -o $NET_INTER -j ACCEPT
 ```
+
+假设PC的有线网络设置IP是192.168.1.2，开发板的有线网络IP是192.168.1.10，DNS随便找个就行，开发板的网络设置：
+
+```text
+address 192.168.1.10
+netmask 255.255.255.0
+gateway 192.168.1.2
+```
