@@ -4,6 +4,7 @@ defaultContentLanguage = 'zh-CN'
 hasCJKLanguage = true
 title = "jmjoy's blog"
 theme = 'hugo-theme-reimu'
+enableRobotsTXT = false
 
 [languages.zh-CN]
 languageName = '简体中文'
