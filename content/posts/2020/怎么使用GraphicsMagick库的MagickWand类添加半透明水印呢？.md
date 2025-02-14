@@ -1,7 +1,7 @@
 ---
 title: "怎么使用GraphicsMagick库的MagickWand类添加半透明水印呢？"
 date: 2020-04-05T20:25:01+08:00
-categories: ["编程"]
+categories: ["编程技术"]
 tags: ["GraphicsMagick", "C语言"]
 ---
 

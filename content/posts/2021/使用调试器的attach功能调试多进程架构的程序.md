@@ -1,7 +1,7 @@
 ---
 title: "使用调试器的attach功能调试多进程架构的程序"
 date: 2021-06-24T09:59:14+08:00
-categories: ["编程"]
+categories: ["编程技术"]
 tags: []
 ---
 

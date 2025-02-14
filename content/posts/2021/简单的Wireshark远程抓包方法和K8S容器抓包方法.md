@@ -1,7 +1,7 @@
 ---
 title: "简单的Wireshark远程抓包方法"
 date: 2021-07-15T10:04:06+08:00
-categories: ["编程"]
+categories: ["编程技术"]
 tags: []
 ---
 
