@@ -1,7 +1,7 @@
 ---
 title: "Docker+xdebug+emacs断点调试PHP程序"
 date: 2019-08-18T14:46:36+08:00
-categories: ["编程"]
+categories: ["编程技术"]
 tags: []
 ---
 

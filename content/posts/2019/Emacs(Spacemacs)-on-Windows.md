@@ -1,7 +1,7 @@
 ---
 title: "Emacs(Spacemacs)-on-Windows"
 date: 2019-08-18T14:47:39+08:00
-categories: ["编程"]
+categories: ["编程技术"]
 tags: []
 ---
 

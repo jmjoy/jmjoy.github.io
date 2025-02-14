@@ -3,7 +3,7 @@ title: "Let’s Encrypt证书吊销事故的思考"
 date: 2020-03-28T00:11:54+08:00
 description: "如何保障代码的安全性？"
 featured_image: ""
-categories: ["编程"]
+categories: ["编程技术"]
 tags: []
 ---
 
