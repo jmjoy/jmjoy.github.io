@@ -2,7 +2,7 @@
 date = '2025-02-20T14:02:54+08:00'
 title = 'K8S中挂载NFS做lower的overlay文件系统'
 categories = ["运维"]
-tags = ["kubernetes", "nfs", "overlay"]
+tags = ["kubernetes", "NFS", "overlay"]
 +++
 
 最近有这么一个需求，需要将nfs的共享文件存储只读挂载给多个Pod，但是多个Pod又需要对数据做一些临时性的修改，很自然就想到了overlay的方案。
