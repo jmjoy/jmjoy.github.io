@@ -8,7 +8,7 @@ math = true
 
 > 内容由[DeepSeek](https://chat.deepseek.com/)生成。
 
-### **公式解析**
+## **公式解析**
 
 ```go
 totalPages := (total + pageSize - 1) / pageSize
@@ -34,7 +34,7 @@ totalPages := (total + pageSize - 1) / pageSize
 
 ---
 
-### **举例验证**
+## **举例验证**
 
 1. **整除情况**  
    - `total=10, pageSize=5`  
@@ -64,7 +64,7 @@ totalPages := (total + pageSize - 1) / pageSize
 
 ---
 
-### **为何不使用 `math.Ceil`？**
+## **为何不使用 `math.Ceil`？**
 
 - **性能**：浮点运算（如 `math.Ceil`）通常比整数运算慢。
 - **简洁性**：无需引入条件判断或类型转换。
@@ -72,6 +72,6 @@ totalPages := (total + pageSize - 1) / pageSize
 
 ---
 
-### **总结**
+## **总结**
 
 此公式通过 `total + pageSize - 1` 巧妙地将余数进位，再利用整数除法特性实现向上取整，最终高效、准确地计算出总页数。适用于任何需要分页的场景，且无需依赖额外函数或复杂逻辑。

@@ -7,7 +7,7 @@ tags = ["Linux"]
 
 > 内容由[ChatGPT](https://chatgpt.com/)生成。
 
-### 1. 配置 ulimit 开启 core dump
+## 1. 配置 ulimit 开启 core dump
 
 默认情况下，shell 可能会限制 core dump 文件的大小。为了确保程序崩溃时能够生成 core 文件，需要取消这个限制。你可以在当前 shell 中执行：
 
@@ -29,11 +29,11 @@ ulimit -c unlimited
 
 ---
 
-### 2. 使用 sysctl 设置 core dump 保存路径和命名格式
+## 2. 使用 sysctl 设置 core dump 保存路径和命名格式
 
 Linux 内核通过 `/proc/sys/kernel/core_pattern` 控制 core 文件的生成位置和文件名格式。为了将 core 文件保存到 `/tmp` 目录，并包含程序名、进程 ID 及时间戳，可以采用以下两种方式：
 
-#### (1) 临时修改（立即生效）
+### (1) 临时修改（立即生效）
 
 直接使用 sysctl 命令：
 
@@ -47,7 +47,7 @@ sudo sysctl -w kernel.core_pattern="/tmp/core.%e.%p.%t"
 - **%p** 表示进程ID，
 - **%t** 表示崩溃时的时间戳。
 
-#### (2) 永久配置
+### (2) 永久配置
 
 为了在系统重启后依然生效，需要将设置写入 sysctl 配置文件：
 
@@ -65,7 +65,7 @@ sudo sysctl -w kernel.core_pattern="/tmp/core.%e.%p.%t"
 
 ---
 
-### 注意事项
+## 注意事项
 
 - **systemd-coredump：** 某些采用 systemd 的发行版可能使用 systemd-coredump 来管理 core 文件，此时 core 文件可能不会直接生成在 `/tmp` 目录。你可以查看系统文档或调整 systemd 的相关配置来改变这一行为。
 - **特殊权限程序：** 对于 setuid 程序或其他安全要求较高的程序，系统可能会禁用 core dump 以防敏感信息泄露。
