@@ -26,7 +26,7 @@ tags = ["交叉编译", "UOS", "loongarch"]
 2. 在`open-loongarch`文件夹里面添加两个文件：
 
     Dockerfile:
-   
+
    ```dockerfile
    FROM debian:12
    
@@ -61,3 +61,7 @@ tags = ["交叉编译", "UOS", "loongarch"]
    理论上发行版的个人账号UID是1000，docker容器使用用户1000来跑的好处是权限跟宿主机的用户一致，构建的时候不会生成一堆root所有的文件，而且镜像加上了sudo，可以使用sudo来跑一些诸如`apt install`的命令。
 
 3. 运行`docker compose run toolchain`即可创建并进入到容器，如果不想每次run都创建一个容器，可以加上`--rm`参数，或者先`docker compose up -d`然后再`docker compose exec toolchain bash`。
+
+## 后记
+
+如果是需要阅读`u-boot`或者`linux`的源码，并且依赖`clangd`，那么在容器里面运行bear或者linux源码里面的`./scripts/clang-tools/gen_compile_commands.py`脚本生成的`compile_commands.json`，其中的file字段就不太对了，解决方法也简单，Dockerfile里面的用户名改成跟你宿主机的名字一样，并且确保挂载映射的路径跟宿主机的一致就可以。
