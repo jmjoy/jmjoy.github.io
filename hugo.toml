@@ -70,6 +70,9 @@ github = "https://github.com/jmjoy"
 [params.article_copyright]
 enable = true
 
+[params.material_theme]
+enable = true
+
 [markup.highlight]
 guessSyntax = true
 noClasses = false
