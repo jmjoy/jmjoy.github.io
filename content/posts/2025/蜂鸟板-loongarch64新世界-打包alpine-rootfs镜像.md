@@ -3,7 +3,7 @@ date = '2025-01-17T09:23:49+08:00'
 title = '蜂鸟板 Loongarch64新世界 打包alpine Rootfs镜像'
 categories = ["嵌入式"]
 tags = ["loongarch", "alpine"]
-cover = "/images/posts/alpine-2k0300.webp"
+cover = "/images/posts/2025/alpine-2k0300.webp"
 +++
 
 最近龙芯蜂鸟板&先锋派发布了新世界（ABI2）试用版，恰逢Alpine之前发布了支持Loongarch64的v3.21版本，于是产生了移植一个Alpine rootfs的想法。
