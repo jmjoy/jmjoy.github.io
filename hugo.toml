@@ -8,6 +8,7 @@ enableRobotsTXT = false
 
 [languages.zh-CN]
 languageName = '简体中文'
+languageCode = 'zh-CN'
 weight = 1
 
 [params]
@@ -57,12 +58,11 @@ repo = "jmjoy/jmjoy.github.io"
 repoId = "MDEwOlJlcG9zaXRvcnk1MTA3ODg4Mw=="
 category = "Announcements"
 categoryId = "DIC_kwDOAwtm484Clhbw"
-mapping = "mapping"
+mapping = "pathname"
 strict = 0
 reactionsEnabled = 1
 emitMetadata = 0
 inputPosition = "bottom"
-lang = "zh-CN"
 
 [params.social]
 github = "https://github.com/jmjoy"
