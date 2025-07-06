@@ -3,6 +3,7 @@ date = '2025-07-02T16:46:34+08:00'
 title = 'Rust中的半双工通信模式：mpsc+oneshot的完美结合'
 categories = ["编程语言"]
 tags = ["Rust"]
+cover = "/images/posts/2025/Rust中的半双工通信模式：mpsc+oneshot的完美结合.webp"
 +++
 
 在异步编程中，我们经常需要在不同的执行上下文之间传递数据和控制权。Rust的`tokio`生态系统提供了多种通信原语，其中`mpsc`（多生产者单消费者）和`oneshot`（一次性）通道的结合使用，可以创造出一种非常优雅的半双工通信模式。
