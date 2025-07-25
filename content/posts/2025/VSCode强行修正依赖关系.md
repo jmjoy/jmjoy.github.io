@@ -37,3 +37,12 @@ sudo apt install ./code.deb
 ```
 
 通过这种方式，我们成功绕过了版本依赖检查，强行安装了 `VSCode`！
+
+---
+
+其实吧，通过下面的命令就能强制安装了，但是有可能被某些应用商店莫名其妙地干掉！
+
+```shell
+apt download code
+sudo dpkg -i --force-depends code_*.deb
+```
