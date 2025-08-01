@@ -103,7 +103,7 @@ export LD_LIBRARY_PATH="/opt/gcc/12/lib64:$LD_LIBRARY_PATH"
 默认安装会在 `~/.local/bin/zed` 创建一个软链，但由于依赖新 libstdc++，需要将其替换为如下 shell 脚本：
 
 ```bash
-#!/bin/bash -i
+#!/bin/bash
 
 export LD_LIBRARY_PATH=/opt/gcc/12/lib64
 exec ~/.local/zed.app/bin/zed "$@"
@@ -114,6 +114,12 @@ exec ~/.local/zed.app/bin/zed "$@"
 ```bash
 chmod +x ~/.local/bin/zed
 ```
+
+## 5. 启动器图标
+
+按照zed官方文档，设置`dev.zed.Zed.desktop`文件：
+
+<https://zed.dev/docs/linux#downloading-manually>
 
 ---
 
