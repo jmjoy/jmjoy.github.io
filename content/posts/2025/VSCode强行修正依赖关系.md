@@ -32,6 +32,7 @@ cd extracted/
 vim DEBIAN/control 
 
 # 重新打包并安装
+cd ..
 dpkg-deb -b extracted/ code.deb
 sudo apt install ./code.deb 
 ```
